@@ -1,11 +1,7 @@
 {
-.appVersion = "1365";
-copyright = "Copyright 2012 Google Inc. All Rights Reserved.";
+.appVersion = "3343";
+copyright = "Copyright 2019 The Hanuman Project Authors (https://github.com/danhhong/Hanuman)";
 customParameters = (
-{
-name = vendorID;
-value = MONO;
-},
 {
 name = panose;
 value = (
@@ -419,6 +415,31 @@ uni17D2_1799_17C5,
 uni17D2_179F_17C5,
 uni17B6.space
 );
+},
+{
+name = license;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: openfontlicense.org";
+},
+{
+name = licenseURL;
+value = "https://openfontlicense.org";
+},
+{
+name = vendorID;
+value = MONO;
+},
+{
+name = Axes;
+value = (
+{
+Name = Weight;
+Tag = wght;
+},
+{
+Name = Width;
+Tag = wdth;
+}
+);
 }
 );
 date = "2020-10-31 04:20:23 +0000";
@@ -711,7 +732,9 @@ nodes = (
 }
 );
 userData = {
-assembly = "NPUSHB[ ]	/* 39 values pushed */\0124 1 1 0 2 3 1 2 103 0 3 0 0 3 87 0 3 3 0 95 0 0 3 0 79 0 0 7 6 5 4 0 3 0 3 17 5 6 23 \012CALL[ ]	/* CallFunction */";
+assembly = "NPUSHB[ ]	/* 39 values pushed */
+4 1 1 0 2 3 1 2 103 0 3 0 0 3 87 0 3 3 0 95 0 0 3 0 79 0 0 7 6 5 4 0 3 0 3 17 5 6 23 
+CALL[ ]	/* CallFunction */";
 };
 width = 1024;
 },
@@ -738,7 +761,9 @@ nodes = (
 }
 );
 userData = {
-assembly = "NPUSHB[ ]	/* 39 values pushed */\0124 1 1 0 2 3 1 2 103 0 3 0 0 3 87 0 3 3 0 95 0 0 3 0 79 0 0 7 6 5 4 0 3 0 3 17 5 6 23 \012CALL[ ]	/* CallFunction */";
+assembly = "NPUSHB[ ]	/* 39 values pushed */
+4 1 1 0 2 3 1 2 103 0 3 0 0 3 87 0 3 3 0 95 0 0 3 0 79 0 0 7 6 5 4 0 3 0 3 17 5 6 23 
+CALL[ ]	/* CallFunction */";
 };
 width = 1024;
 },
@@ -765,7 +790,9 @@ nodes = (
 }
 );
 userData = {
-assembly = "NPUSHB[ ]	/* 39 values pushed */\0124 1 1 0 2 3 1 2 103 0 3 0 0 3 87 0 3 3 0 95 0 0 3 0 79 0 0 7 6 5 4 0 3 0 3 17 5 6 23 \012CALL[ ]	/* CallFunction */";
+assembly = "NPUSHB[ ]	/* 39 values pushed */
+4 1 1 0 2 3 1 2 103 0 3 0 0 3 87 0 3 3 0 95 0 0 3 0 79 0 0 7 6 5 4 0 3 0 3 17 5 6 23 
+CALL[ ]	/* CallFunction */";
 };
 width = 1024;
 }
@@ -881,7 +908,9 @@ nodes = (
 }
 );
 userData = {
-assembly = "NPUSHB[ ]	/* 41 values pushed */\0120 0 0 1 95 4 1 1 1 31 77 5 1 3 3 2 95 0 2 2 32 2 78 4 4 0 0 4 7 4 7 6 5 0 3 0 3 17 6 8 23 \012CALL[ ]	/* CallFunction */";
+assembly = "NPUSHB[ ]	/* 41 values pushed */
+0 0 0 1 95 4 1 1 1 31 77 5 1 3 3 2 95 0 2 2 32 2 78 4 4 0 0 4 7 4 7 6 5 0 3 0 3 17 6 8 23 
+CALL[ ]	/* CallFunction */";
 };
 width = 483;
 },
@@ -968,7 +997,9 @@ nodes = (
 }
 );
 userData = {
-assembly = "NPUSHB[ ]	/* 27 values pushed */\0125 0 2 0 1 1 76 2 1 0 0 1 95 3 1 1 1 33 0 78 17 18 17 17 4 8 26 \012CALL[ ]	/* CallFunction */";
+assembly = "NPUSHB[ ]	/* 27 values pushed */
+5 0 2 0 1 1 76 2 1 0 0 1 95 3 1 1 1 33 0 78 17 18 17 17 4 8 26 
+CALL[ ]	/* CallFunction */";
 };
 width = 770;
 },
@@ -1101,7 +1132,20 @@ nodes = (
 }
 );
 userData = {
-assembly = "MPPEM[ ]	/* MeasurePixelPerEm */\012PUSHB[ ]	/* 1 value pushed */\01223 \012LT[ ]	/* LessThan */\012IF[ ]	/* If */\012NPUSHB[ ]	/* 40 values pushed */\01215 10 2 2 16 13 11 3 1 0 2 1 103 7 1 5 5 31 77 14 9 2 3 3 4 95 8 6 2 4 4 34 77 12 1 0 0 32 0 78 \012ELSE[ ]	/* Else */\012NPUSHB[ ]	/* 38 values pushed */\0128 6 2 4 14 9 2 3 2 4 3 104 15 10 2 2 16 13 11 3 1 0 2 1 103 7 1 5 5 31 77 12 1 0 0 32 0 78 \012EIF[ ]	/* EndIf */\012NPUSHB[ ]	/* 30 values pushed */\0120 0 31 30 29 28 0 27 0 27 26 25 24 23 22 21 20 19 17 17 17 17 17 17 17 17 17 17 8 31 \012CALL[ ]	/* CallFunction */";
+assembly = "MPPEM[ ]	/* MeasurePixelPerEm */
+PUSHB[ ]	/* 1 value pushed */
+23 
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+NPUSHB[ ]	/* 40 values pushed */
+15 10 2 2 16 13 11 3 1 0 2 1 103 7 1 5 5 31 77 14 9 2 3 3 4 95 8 6 2 4 4 34 77 12 1 0 0 32 0 78 
+ELSE[ ]	/* Else */
+NPUSHB[ ]	/* 38 values pushed */
+8 6 2 4 14 9 2 3 2 4 3 104 15 10 2 2 16 13 11 3 1 0 2 1 103 7 1 5 5 31 77 12 1 0 0 32 0 78 
+EIF[ ]	/* EndIf */
+NPUSHB[ ]	/* 30 values pushed */
+0 0 31 30 29 28 0 27 0 27 26 25 24 23 22 21 20 19 17 17 17 17 17 17 17 17 17 17 8 31 
+CALL[ ]	/* CallFunction */";
 };
 width = 1246;
 },
@@ -1288,7 +1332,9 @@ nodes = (
 }
 );
 userData = {
-assembly = "NPUSHB[ ]	/* 60 values pushed */\01230 27 2 5 3 52 2 2 0 2 2 76 0 4 5 1 5 4 1 128 0 1 2 5 1 2 126 0 3 0 5 4 3 5 105 0 2 0 0 2 89 0 2 2 0 95 0 0 2 0 79 34 36 31 35 37 16 6 8 28 \012CALL[ ]	/* CallFunction */";
+assembly = "NPUSHB[ ]	/* 60 values pushed */
+30 27 2 5 3 52 2 2 0 2 2 76 0 4 5 1 5 4 1 128 0 1 2 5 1 2 126 0 3 0 5 4 3 5 105 0 2 0 0 2 89 0 2 2 0 95 0 0 2 0 79 34 36 31 35 37 16 6 8 28 
+CALL[ ]	/* CallFunction */";
 };
 width = 1110;
 },
@@ -1561,7 +1607,9 @@ nodes = (
 }
 );
 userData = {
-assembly = "NPUSHB[ ]	/* 87 values pushed */\01265 1 6 7 67 66 2 2 3 2 76 11 1 6 10 1 4 1 6 4 105 0 1 0 3 2 1 3 105 0 7 7 5 97 0 5 5 37 77 9 1 2 2 0 97 8 1 0 0 38 0 78 51 50 33 32 19 18 1 0 58 56 50 63 51 63 42 40 32 49 33 49 26 24 18 31 19 31 10 8 0 17 1 17 12 8 22 \012CALL[ ]	/* CallFunction */";
+assembly = "NPUSHB[ ]	/* 87 values pushed */
+65 1 6 7 67 66 2 2 3 2 76 11 1 6 10 1 4 1 6 4 105 0 1 0 3 2 1 3 105 0 7 7 5 97 0 5 5 37 77 9 1 2 2 0 97 8 1 0 0 38 0 78 51 50 33 32 19 18 1 0 58 56 50 63 51 63 42 40 32 49 33 49 26 24 18 31 19 31 10 8 0 17 1 17 12 8 22 
+CALL[ ]	/* CallFunction */";
 };
 width = 1460;
 },
@@ -1841,7 +1889,31 @@ nodes = (
 }
 );
 userData = {
-assembly = "MPPEM[ ]	/* MeasurePixelPerEm */\012PUSHB[ ]	/* 1 value pushed */\01222 \012LT[ ]	/* LessThan */\012IF[ ]	/* If */\012NPUSHB[ ]	/* 18 values pushed */\01225 7 2 2 5 44 43 33 26 4 4 2 37 1 0 4 3 76 \012ELSE[ ]	/* Else */\012NPUSHB[ ]	/* 18 values pushed */\01225 7 2 2 5 44 43 33 26 4 4 2 37 1 3 4 3 76 \012EIF[ ]	/* EndIf */\012MPPEM[ ]	/* MeasurePixelPerEm */\012PUSHB[ ]	/* 1 value pushed */\01222 \012LT[ ]	/* LessThan */\012IF[ ]	/* If */\012NPUSHB[ ]	/* 36 values pushed */\0120 5 5 1 97 0 1 1 37 77 0 2 2 0 97 3 6 2 0 0 38 77 7 1 4 4 0 97 3 6 2 0 0 38 0 78 \012ELSE[ ]	/* Else */\012NPUSHB[ ]	/* 33 values pushed */\0120 5 5 1 97 0 1 1 37 77 0 2 2 3 95 0 3 3 32 77 7 1 4 4 0 97 6 1 0 0 38 0 78 \012EIF[ ]	/* EndIf */\012NPUSHB[ ]	/* 23 values pushed */\01241 40 1 0 59 57 40 50 41 50 36 34 30 29 18 16 0 39 1 39 8 8 22 \012CALL[ ]	/* CallFunction */";
+assembly = "MPPEM[ ]	/* MeasurePixelPerEm */
+PUSHB[ ]	/* 1 value pushed */
+22 
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+NPUSHB[ ]	/* 18 values pushed */
+25 7 2 2 5 44 43 33 26 4 4 2 37 1 0 4 3 76 
+ELSE[ ]	/* Else */
+NPUSHB[ ]	/* 18 values pushed */
+25 7 2 2 5 44 43 33 26 4 4 2 37 1 3 4 3 76 
+EIF[ ]	/* EndIf */
+MPPEM[ ]	/* MeasurePixelPerEm */
+PUSHB[ ]	/* 1 value pushed */
+22 
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+NPUSHB[ ]	/* 36 values pushed */
+0 5 5 1 97 0 1 1 37 77 0 2 2 0 97 3 6 2 0 0 38 77 7 1 4 4 0 97 3 6 2 0 0 38 0 78 
+ELSE[ ]	/* Else */
+NPUSHB[ ]	/* 33 values pushed */
+0 5 5 1 97 0 1 1 37 77 0 2 2 3 95 0 3 3 32 77 7 1 4 4 0 97 6 1 0 0 38 0 78 
+EIF[ ]	/* EndIf */
+NPUSHB[ ]	/* 23 values pushed */
+41 40 1 0 59 57 40 50 41 50 36 34 30 29 18 16 0 39 1 39 8 8 22 
+CALL[ ]	/* CallFunction */";
 };
 width = 1289;
 },
@@ -1969,7 +2041,9 @@ nodes = (
 }
 );
 userData = {
-assembly = "NPUSHB[ ]	/* 22 values pushed */\0120 1 0 1 1 76 0 0 0 1 95 0 1 1 33 0 78 17 17 2 8 24 \012CALL[ ]	/* CallFunction */";
+assembly = "NPUSHB[ ]	/* 22 values pushed */
+0 1 0 1 1 76 0 0 0 1 95 0 1 1 33 0 78 17 17 2 8 24 
+CALL[ ]	/* CallFunction */";
 };
 width = 460;
 },
@@ -2070,7 +2144,9 @@ nodes = (
 }
 );
 userData = {
-assembly = "PUSHB[ ]	/* 4 values pushed */\01212 0 1 50 \012CALL[ ]	/* CallFunction */";
+assembly = "PUSHB[ ]	/* 4 values pushed */
+12 0 1 50 
+CALL[ ]	/* CallFunction */";
 };
 width = 662;
 },
@@ -2192,7 +2268,9 @@ nodes = (
 }
 );
 userData = {
-assembly = "PUSHB[ ]	/* 4 values pushed */\01214 0 1 50 \012CALL[ ]	/* CallFunction */";
+assembly = "PUSHB[ ]	/* 4 values pushed */
+14 0 1 50 
+CALL[ ]	/* CallFunction */";
 };
 width = 662;
 },
@@ -2292,7 +2370,9 @@ nodes = (
 }
 );
 userData = {
-assembly = "NPUSHB[ ]	/* 25 values pushed */\01214 13 12 9 8 7 6 5 4 3 2 1 12 0 73 0 0 0 31 0 78 26 1 8 23 \012CALL[ ]	/* CallFunction */";
+assembly = "NPUSHB[ ]	/* 25 values pushed */
+14 13 12 9 8 7 6 5 4 3 2 1 12 0 73 0 0 0 31 0 78 26 1 8 23 
+CALL[ ]	/* CallFunction */";
 };
 width = 958;
 },
@@ -2375,7 +2455,9 @@ nodes = (
 }
 );
 userData = {
-assembly = "NPUSHB[ ]	/* 41 values pushed */\0120 3 2 0 3 87 4 1 2 6 5 2 1 0 2 1 103 0 3 3 0 95 0 0 3 0 79 0 0 0 11 0 11 17 17 17 17 17 7 8 27 \012CALL[ ]	/* CallFunction */";
+assembly = "NPUSHB[ ]	/* 41 values pushed */
+0 3 2 0 3 87 4 1 2 6 5 2 1 0 2 1 103 0 3 3 0 95 0 0 3 0 79 0 0 0 11 0 11 17 17 17 17 17 7 8 27 
+CALL[ ]	/* CallFunction */";
 };
 width = 1145;
 },
@@ -2451,7 +2533,9 @@ nodes = (
 }
 );
 userData = {
-assembly = "NPUSHB[ ]	/* 12 values pushed */\0121 1 0 73 0 0 0 118 21 1 8 23 \012CALL[ ]	/* CallFunction */";
+assembly = "NPUSHB[ ]	/* 12 values pushed */
+1 1 0 73 0 0 0 118 21 1 8 23 
+CALL[ ]	/* CallFunction */";
 };
 width = 404;
 },
@@ -2513,7 +2597,9 @@ nodes = (
 }
 );
 userData = {
-assembly = "NPUSHB[ ]	/* 28 values pushed */\0122 1 1 0 0 1 87 2 1 1 1 0 95 0 0 1 0 79 0 0 0 3 0 3 17 3 8 23 \012CALL[ ]	/* CallFunction */";
+assembly = "NPUSHB[ ]	/* 28 values pushed */
+2 1 1 0 0 1 87 2 1 1 1 0 95 0 0 1 0 79 0 0 0 3 0 3 17 3 8 23 
+CALL[ ]	/* CallFunction */";
 };
 width = 797;
 },
@@ -2569,7 +2655,9 @@ nodes = (
 }
 );
 userData = {
-assembly = "NPUSHB[ ]	/* 22 values pushed */\0122 1 1 1 0 95 0 0 0 32 0 78 0 0 0 3 0 3 17 3 8 23 \012CALL[ ]	/* CallFunction */";
+assembly = "NPUSHB[ ]	/* 22 values pushed */
+2 1 1 1 0 95 0 0 0 32 0 78 0 0 0 3 0 3 17 3 8 23 
+CALL[ ]	/* CallFunction */";
 };
 width = 493;
 },
@@ -2625,7 +2713,9 @@ nodes = (
 }
 );
 userData = {
-assembly = "NPUSHB[ ]	/* 22 values pushed */\0120 0 1 0 134 2 1 1 1 31 1 78 0 0 0 3 0 3 17 3 8 23 \012CALL[ ]	/* CallFunction */";
+assembly = "NPUSHB[ ]	/* 22 values pushed */
+0 0 1 0 134 2 1 1 1 31 1 78 0 0 0 3 0 3 17 3 8 23 
+CALL[ ]	/* CallFunction */";
 };
 width = 824;
 },
@@ -2739,7 +2829,9 @@ nodes = (
 }
 );
 userData = {
-assembly = "NPUSHB[ ]	/* 42 values pushed */\0120 3 3 1 97 0 1 1 37 77 5 1 2 2 0 97 4 1 0 0 38 0 78 15 14 1 0 22 20 14 27 15 27 8 6 0 13 1 13 6 8 22 \012CALL[ ]	/* CallFunction */";
+assembly = "NPUSHB[ ]	/* 42 values pushed */
+0 3 3 1 97 0 1 1 37 77 5 1 2 2 0 97 4 1 0 0 38 0 78 15 14 1 0 22 20 14 27 15 27 8 6 0 13 1 13 6 8 22 
+CALL[ ]	/* CallFunction */";
 };
 width = 1168;
 },
@@ -2836,7 +2928,9 @@ nodes = (
 }
 );
 userData = {
-assembly = "NPUSHB[ ]	/* 30 values pushed */\0129 4 3 0 4 0 1 1 76 8 7 2 1 74 0 1 0 1 133 0 0 0 32 0 78 19 17 2 8 24 \012CALL[ ]	/* CallFunction */";
+assembly = "NPUSHB[ ]	/* 30 values pushed */
+9 4 3 0 4 0 1 1 76 8 7 2 1 74 0 1 0 1 133 0 0 0 32 0 78 19 17 2 8 24 
+CALL[ ]	/* CallFunction */";
 };
 width = 844;
 },
@@ -2956,7 +3050,22 @@ nodes = (
 }
 );
 userData = {
-assembly = "PUSHB[ ]	/* 6 values pushed */\0122 1 0 4 1 76 \012MPPEM[ ]	/* MeasurePixelPerEm */\012PUSHB[ ]	/* 1 value pushed */\01216 \012LT[ ]	/* LessThan */\012IF[ ]	/* If */\012NPUSHB[ ]	/* 35 values pushed */\0120 2 1 5 1 2 5 128 0 5 4 4 5 112 0 1 1 3 97 0 3 3 37 77 0 4 4 0 96 0 0 0 32 0 78 \012ELSE[ ]	/* Else */\012NPUSHB[ ]	/* 36 values pushed */\0120 2 1 5 1 2 5 128 0 5 4 1 5 4 126 0 1 1 3 97 0 3 3 37 77 0 4 4 0 96 0 0 0 32 0 78 \012EIF[ ]	/* EndIf */\012NPUSHB[ ]	/* 9 values pushed */\01217 40 36 18 40 16 6 8 28 \012CALL[ ]	/* CallFunction */";
+assembly = "PUSHB[ ]	/* 6 values pushed */
+2 1 0 4 1 76 
+MPPEM[ ]	/* MeasurePixelPerEm */
+PUSHB[ ]	/* 1 value pushed */
+16 
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+NPUSHB[ ]	/* 35 values pushed */
+0 2 1 5 1 2 5 128 0 5 4 4 5 112 0 1 1 3 97 0 3 3 37 77 0 4 4 0 96 0 0 0 32 0 78 
+ELSE[ ]	/* Else */
+NPUSHB[ ]	/* 36 values pushed */
+0 2 1 5 1 2 5 128 0 5 4 1 5 4 126 0 1 1 3 97 0 3 3 37 77 0 4 4 0 96 0 0 0 32 0 78 
+EIF[ ]	/* EndIf */
+NPUSHB[ ]	/* 9 values pushed */
+17 40 36 18 40 16 6 8 28 
+CALL[ ]	/* CallFunction */";
 };
 width = 1131;
 },
@@ -3131,7 +3240,9 @@ nodes = (
 }
 );
 userData = {
-assembly = "NPUSHB[ ]	/* 75 values pushed */\01242 1 3 4 1 76 0 6 5 4 5 6 4 128 0 1 3 2 3 1 2 128 0 4 0 3 1 4 3 103 0 5 5 7 97 0 7 7 37 77 0 2 2 0 97 8 1 0 0 38 0 78 1 0 37 35 31 30 27 25 20 18 17 15 11 9 6 4 0 48 1 48 9 8 22 \012CALL[ ]	/* CallFunction */";
+assembly = "NPUSHB[ ]	/* 75 values pushed */
+42 1 3 4 1 76 0 6 5 4 5 6 4 128 0 1 3 2 3 1 2 128 0 4 0 3 1 4 3 103 0 5 5 7 97 0 7 7 37 77 0 2 2 0 97 8 1 0 0 38 0 78 1 0 37 35 31 30 27 25 20 18 17 15 11 9 6 4 0 48 1 48 9 8 22 
+CALL[ ]	/* CallFunction */";
 };
 width = 1106;
 },
@@ -3274,7 +3385,9 @@ nodes = (
 }
 );
 userData = {
-assembly = "NPUSHB[ ]	/* 47 values pushed */\01219 1 3 2 7 1 1 3 14 4 3 0 4 0 1 3 76 5 1 3 4 1 1 0 3 1 104 0 2 2 31 77 0 0 0 32 0 78 20 17 17 18 19 17 6 8 28 \012CALL[ ]	/* CallFunction */";
+assembly = "NPUSHB[ ]	/* 47 values pushed */
+19 1 3 2 7 1 1 3 14 4 3 0 4 0 1 3 76 5 1 3 4 1 1 0 3 1 104 0 2 2 31 77 0 0 0 32 0 78 20 17 17 18 19 17 6 8 28 
+CALL[ ]	/* CallFunction */";
 };
 width = 1187;
 },
@@ -3419,7 +3532,22 @@ nodes = (
 }
 );
 userData = {
-assembly = "NPUSHB[ ]	/* 11 values pushed */\01226 1 3 7 19 18 2 1 3 2 76 \012MPPEM[ ]	/* MeasurePixelPerEm */\012PUSHB[ ]	/* 1 value pushed */\01223 \012LT[ ]	/* LessThan */\012IF[ ]	/* If */\012NPUSHB[ ]	/* 45 values pushed */\0120 5 6 7 6 5 114 0 1 3 2 3 1 2 128 0 7 0 3 1 7 3 105 0 6 6 4 95 0 4 4 31 77 0 2 2 0 97 8 1 0 0 38 0 78 \012ELSE[ ]	/* Else */\012NPUSHB[ ]	/* 46 values pushed */\0120 5 6 7 6 5 7 128 0 1 3 2 3 1 2 128 0 7 0 3 1 7 3 105 0 6 6 4 95 0 4 4 31 77 0 2 2 0 97 8 1 0 0 38 0 78 \012EIF[ ]	/* EndIf */\012NPUSHB[ ]	/* 23 values pushed */\0121 0 31 29 25 24 23 22 21 20 16 14 10 8 6 4 0 37 1 37 9 8 22 \012CALL[ ]	/* CallFunction */";
+assembly = "NPUSHB[ ]	/* 11 values pushed */
+26 1 3 7 19 18 2 1 3 2 76 
+MPPEM[ ]	/* MeasurePixelPerEm */
+PUSHB[ ]	/* 1 value pushed */
+23 
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+NPUSHB[ ]	/* 45 values pushed */
+0 5 6 7 6 5 114 0 1 3 2 3 1 2 128 0 7 0 3 1 7 3 105 0 6 6 4 95 0 4 4 31 77 0 2 2 0 97 8 1 0 0 38 0 78 
+ELSE[ ]	/* Else */
+NPUSHB[ ]	/* 46 values pushed */
+0 5 6 7 6 5 7 128 0 1 3 2 3 1 2 128 0 7 0 3 1 7 3 105 0 6 6 4 95 0 4 4 31 77 0 2 2 0 97 8 1 0 0 38 0 78 
+EIF[ ]	/* EndIf */
+NPUSHB[ ]	/* 23 values pushed */
+1 0 31 29 25 24 23 22 21 20 16 14 10 8 6 4 0 37 1 37 9 8 22 
+CALL[ ]	/* CallFunction */";
 };
 width = 1081;
 },
@@ -3603,7 +3731,9 @@ nodes = (
 }
 );
 userData = {
-assembly = "NPUSHB[ ]	/* 72 values pushed */\01212 1 2 1 13 1 3 2 19 1 5 3 42 1 4 5 4 76 0 3 0 5 4 3 5 105 0 2 2 1 97 0 1 1 37 77 7 1 4 4 0 97 6 1 0 0 38 0 78 32 31 1 0 39 37 31 45 32 45 24 22 17 15 10 8 0 30 1 30 8 8 22 \012CALL[ ]	/* CallFunction */";
+assembly = "NPUSHB[ ]	/* 72 values pushed */
+12 1 2 1 13 1 3 2 19 1 5 3 42 1 4 5 4 76 0 3 0 5 4 3 5 105 0 2 2 1 97 0 1 1 37 77 7 1 4 4 0 97 6 1 0 0 38 0 78 32 31 1 0 39 37 31 45 32 45 24 22 17 15 10 8 0 30 1 30 8 8 22 
+CALL[ ]	/* CallFunction */";
 };
 width = 1144;
 },
@@ -3734,7 +3864,22 @@ nodes = (
 }
 );
 userData = {
-assembly = "PUSHB[ ]	/* 5 values pushed */\01212 1 1 1 75 \012MPPEM[ ]	/* MeasurePixelPerEm */\012PUSHB[ ]	/* 1 value pushed */\01216 \012LT[ ]	/* LessThan */\012IF[ ]	/* If */\012NPUSHB[ ]	/* 23 values pushed */\0120 2 1 0 1 2 114 0 1 1 3 95 0 3 3 31 77 0 0 0 32 0 78 \012ELSE[ ]	/* Else */\012NPUSHB[ ]	/* 24 values pushed */\0120 2 1 0 1 2 0 128 0 1 1 3 95 0 3 3 31 77 0 0 0 32 0 78 \012EIF[ ]	/* EndIf */\012PUSHB[ ]	/* 7 values pushed */\01217 17 21 16 4 8 26 \012CALL[ ]	/* CallFunction */";
+assembly = "PUSHB[ ]	/* 5 values pushed */
+12 1 1 1 75 
+MPPEM[ ]	/* MeasurePixelPerEm */
+PUSHB[ ]	/* 1 value pushed */
+16 
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+NPUSHB[ ]	/* 23 values pushed */
+0 2 1 0 1 2 114 0 1 1 3 95 0 3 3 31 77 0 0 0 32 0 78 
+ELSE[ ]	/* Else */
+NPUSHB[ ]	/* 24 values pushed */
+0 2 1 0 1 2 0 128 0 1 1 3 95 0 3 3 31 77 0 0 0 32 0 78 
+EIF[ ]	/* EndIf */
+PUSHB[ ]	/* 7 values pushed */
+17 17 21 16 4 8 26 
+CALL[ ]	/* CallFunction */";
 };
 width = 1128;
 },
@@ -3930,7 +4075,9 @@ nodes = (
 }
 );
 userData = {
-assembly = "NPUSHB[ ]	/* 66 values pushed */\01221 7 2 3 4 1 76 8 1 4 0 3 2 4 3 105 0 5 5 1 97 0 1 1 37 77 7 1 2 2 0 97 6 1 0 0 38 0 78 44 43 29 28 1 0 52 50 43 56 44 56 37 35 28 42 29 42 15 13 0 27 1 27 9 8 22 \012CALL[ ]	/* CallFunction */";
+assembly = "NPUSHB[ ]	/* 66 values pushed */
+21 7 2 3 4 1 76 8 1 4 0 3 2 4 3 105 0 5 5 1 97 0 1 1 37 77 7 1 2 2 0 97 6 1 0 0 38 0 78 44 43 29 28 1 0 52 50 43 56 44 56 37 35 28 42 29 42 15 13 0 27 1 27 9 8 22 
+CALL[ ]	/* CallFunction */";
 };
 width = 1131;
 },
@@ -4143,7 +4290,9 @@ nodes = (
 }
 );
 userData = {
-assembly = "NPUSHB[ ]	/* 72 values pushed */\01234 1 4 5 10 1 2 4 4 1 1 2 3 1 0 1 4 76 7 1 4 0 2 1 4 2 105 0 5 5 3 97 0 3 3 37 77 0 1 1 0 97 6 1 0 0 38 0 78 32 31 1 0 39 37 31 45 32 45 23 21 15 13 8 6 0 30 1 30 8 8 22 \012CALL[ ]	/* CallFunction */";
+assembly = "NPUSHB[ ]	/* 72 values pushed */
+34 1 4 5 10 1 2 4 4 1 1 2 3 1 0 1 4 76 7 1 4 0 2 1 4 2 105 0 5 5 3 97 0 3 3 37 77 0 1 1 0 97 6 1 0 0 38 0 78 32 31 1 0 39 37 31 45 32 45 23 21 15 13 8 6 0 30 1 30 8 8 22 
+CALL[ ]	/* CallFunction */";
 };
 width = 1154;
 },
@@ -4264,7 +4413,9 @@ nodes = (
 }
 );
 userData = {
-assembly = "NPUSHB[ ]	/* 41 values pushed */\0120 0 0 1 95 4 1 1 1 34 77 5 1 3 3 2 95 0 2 2 32 2 78 4 4 0 0 4 7 4 7 6 5 0 3 0 3 17 6 8 23 \012CALL[ ]	/* CallFunction */";
+assembly = "NPUSHB[ ]	/* 41 values pushed */
+0 0 0 1 95 4 1 1 1 34 77 5 1 3 3 2 95 0 2 2 32 2 78 4 4 0 0 4 7 4 7 6 5 0 3 0 3 17 6 8 23 
+CALL[ ]	/* CallFunction */";
 };
 width = 419;
 },
@@ -4359,7 +4510,9 @@ nodes = (
 }
 );
 userData = {
-assembly = "NPUSHB[ ]	/* 32 values pushed */\0121 1 0 73 0 0 1 0 134 0 1 1 2 95 3 1 2 2 34 1 78 10 10 10 13 10 13 21 21 4 8 24 \012CALL[ ]	/* CallFunction */";
+assembly = "NPUSHB[ ]	/* 32 values pushed */
+1 1 0 73 0 0 1 0 134 0 1 1 2 95 3 1 2 2 34 1 78 10 10 10 13 10 13 21 21 4 8 24 
+CALL[ ]	/* CallFunction */";
 };
 width = 424;
 },
@@ -4442,7 +4595,9 @@ nodes = (
 }
 );
 userData = {
-assembly = "PUSHB[ ]	/* 4 values pushed */\0125 2 1 50 \012CALL[ ]	/* CallFunction */";
+assembly = "PUSHB[ ]	/* 4 values pushed */
+5 2 1 50 
+CALL[ ]	/* CallFunction */";
 };
 width = 1017;
 },
@@ -4522,7 +4677,9 @@ nodes = (
 }
 );
 userData = {
-assembly = "NPUSHB[ ]	/* 45 values pushed */\0124 1 1 0 0 3 1 0 103 5 1 3 2 2 3 87 5 1 3 3 2 95 0 2 3 2 79 4 4 0 0 4 7 4 7 6 5 0 3 0 3 17 6 8 23 \012CALL[ ]	/* CallFunction */";
+assembly = "NPUSHB[ ]	/* 45 values pushed */
+4 1 1 0 0 3 1 0 103 5 1 3 2 2 3 87 5 1 3 3 2 95 0 2 3 2 79 4 4 0 0 4 7 4 7 6 5 0 3 0 3 17 6 8 23 
+CALL[ ]	/* CallFunction */";
 };
 width = 1127;
 },
@@ -4599,7 +4756,9 @@ nodes = (
 }
 );
 userData = {
-assembly = "PUSHB[ ]	/* 4 values pushed */\0129 2 1 50 \012CALL[ ]	/* CallFunction */";
+assembly = "PUSHB[ ]	/* 4 values pushed */
+9 2 1 50 
+CALL[ ]	/* CallFunction */";
 };
 width = 1017;
 },
@@ -4737,7 +4896,9 @@ nodes = (
 }
 );
 userData = {
-assembly = "NPUSHB[ ]	/* 51 values pushed */\0120 2 1 0 1 2 0 128 0 0 5 1 0 5 126 0 1 1 3 97 0 3 3 37 77 6 1 5 5 4 95 0 4 4 32 4 78 33 33 33 36 33 36 27 36 18 43 16 7 8 27 \012CALL[ ]	/* CallFunction */";
+assembly = "NPUSHB[ ]	/* 51 values pushed */
+0 2 1 0 1 2 0 128 0 0 5 1 0 5 126 0 1 1 3 97 0 3 3 37 77 6 1 5 5 4 95 0 4 4 32 4 78 33 33 33 36 33 36 27 36 18 43 16 7 8 27 
+CALL[ ]	/* CallFunction */";
 };
 width = 953;
 },
@@ -4981,7 +5142,40 @@ nodes = (
 }
 );
 userData = {
-assembly = "MPPEM[ ]	/* MeasurePixelPerEm */\012PUSHB[ ]	/* 1 value pushed */\01220 \012LT[ ]	/* LessThan */\012IF[ ]	/* If */\012NPUSHB[ ]	/* 20 values pushed */\01231 1 9 4 65 61 19 3 5 9 54 1 7 2 55 1 0 7 4 76 \012ELSE[ ]	/* Else */\012NPUSHB[ ]	/* 20 values pushed */\01231 1 9 4 65 61 19 3 8 9 54 1 7 2 55 1 0 7 4 76 \012EIF[ ]	/* EndIf */\012MPPEM[ ]	/* MeasurePixelPerEm */\012PUSHB[ ]	/* 1 value pushed */\01220 \012LT[ ]	/* LessThan */\012IF[ ]	/* If */\012NPUSHB[ ]	/* 43 values pushed */\0120 4 0 9 5 4 9 105 0 6 6 1 97 0 1 1 31 77 11 8 2 5 5 2 97 3 1 2 2 38 77 0 7 7 0 97 10 1 0 0 42 0 78 \012ELSE[ ]	/* Else */\012MPPEM[ ]	/* MeasurePixelPerEm */\012PUSHB[ ]	/* 1 value pushed */\01240 \012LT[ ]	/* LessThan */\012IF[ ]	/* If */\012NPUSHB[ ]	/* 53 values pushed */\0120 4 0 9 8 4 9 105 0 6 6 1 97 0 1 1 31 77 11 1 8 8 2 97 3 1 2 2 38 77 0 5 5 2 97 3 1 2 2 38 77 0 7 7 0 97 10 1 0 0 42 0 78 \012ELSE[ ]	/* Else */\012NPUSHB[ ]	/* 51 values pushed */\0120 1 0 6 4 1 6 105 0 4 0 9 8 4 9 105 11 1 8 8 2 97 3 1 2 2 38 77 0 5 5 2 97 3 1 2 2 38 77 0 7 7 0 97 10 1 0 0 42 0 78 \012EIF[ ]	/* EndIf */\012EIF[ ]	/* EndIf */\012NPUSHB[ ]	/* 31 values pushed */\01259 58 1 0 69 67 58 73 59 73 52 50 44 42 38 36 29 27 22 20 17 15 9 7 0 57 1 57 12 8 22 \012CALL[ ]	/* CallFunction */";
+assembly = "MPPEM[ ]	/* MeasurePixelPerEm */
+PUSHB[ ]	/* 1 value pushed */
+20 
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+NPUSHB[ ]	/* 20 values pushed */
+31 1 9 4 65 61 19 3 5 9 54 1 7 2 55 1 0 7 4 76 
+ELSE[ ]	/* Else */
+NPUSHB[ ]	/* 20 values pushed */
+31 1 9 4 65 61 19 3 8 9 54 1 7 2 55 1 0 7 4 76 
+EIF[ ]	/* EndIf */
+MPPEM[ ]	/* MeasurePixelPerEm */
+PUSHB[ ]	/* 1 value pushed */
+20 
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+NPUSHB[ ]	/* 43 values pushed */
+0 4 0 9 5 4 9 105 0 6 6 1 97 0 1 1 31 77 11 8 2 5 5 2 97 3 1 2 2 38 77 0 7 7 0 97 10 1 0 0 42 0 78 
+ELSE[ ]	/* Else */
+MPPEM[ ]	/* MeasurePixelPerEm */
+PUSHB[ ]	/* 1 value pushed */
+40 
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+NPUSHB[ ]	/* 53 values pushed */
+0 4 0 9 8 4 9 105 0 6 6 1 97 0 1 1 31 77 11 1 8 8 2 97 3 1 2 2 38 77 0 5 5 2 97 3 1 2 2 38 77 0 7 7 0 97 10 1 0 0 42 0 78 
+ELSE[ ]	/* Else */
+NPUSHB[ ]	/* 51 values pushed */
+0 1 0 6 4 1 6 105 0 4 0 9 8 4 9 105 11 1 8 8 2 97 3 1 2 2 38 77 0 5 5 2 97 3 1 2 2 38 77 0 7 7 0 97 10 1 0 0 42 0 78 
+EIF[ ]	/* EndIf */
+EIF[ ]	/* EndIf */
+NPUSHB[ ]	/* 31 values pushed */
+59 58 1 0 69 67 58 73 59 73 52 50 44 42 38 36 29 27 22 20 17 15 9 7 0 57 1 57 12 8 22 
+CALL[ ]	/* CallFunction */";
 };
 width = 1821;
 },
@@ -5158,7 +5352,9 @@ nodes = (
 }
 );
 userData = {
-assembly = "NPUSHB[ ]	/* 43 values pushed */\01221 1 4 1 15 12 11 8 3 0 6 0 3 2 76 0 4 0 3 0 4 3 104 0 1 1 31 77 2 1 0 0 32 0 78 20 19 19 19 17 5 8 27 \012CALL[ ]	/* CallFunction */";
+assembly = "NPUSHB[ ]	/* 43 values pushed */
+21 1 4 1 15 12 11 8 3 0 6 0 3 2 76 0 4 0 3 0 4 3 104 0 1 1 31 77 2 1 0 0 32 0 78 20 19 19 19 17 5 8 27 
+CALL[ ]	/* CallFunction */";
 };
 width = 1533;
 },
@@ -5329,7 +5525,9 @@ nodes = (
 }
 );
 userData = {
-assembly = "NPUSHB[ ]	/* 81 values pushed */\0125 1 5 1 14 1 3 4 2 1 0 2 3 76 4 1 5 3 1 2 2 75 0 4 7 1 3 2 4 3 103 8 1 5 5 1 95 0 1 1 31 77 0 2 2 0 95 6 1 0 0 32 0 78 31 31 21 21 1 0 31 39 31 38 34 32 21 30 21 29 24 22 9 6 0 20 1 20 9 8 22 \012CALL[ ]	/* CallFunction */";
+assembly = "NPUSHB[ ]	/* 81 values pushed */
+5 1 5 1 14 1 3 4 2 1 0 2 3 76 4 1 5 3 1 2 2 75 0 4 7 1 3 2 4 3 103 8 1 5 5 1 95 0 1 1 31 77 0 2 2 0 95 6 1 0 0 32 0 78 31 31 21 21 1 0 31 39 31 38 34 32 21 30 21 29 24 22 9 6 0 20 1 20 9 8 22 
+CALL[ ]	/* CallFunction */";
 };
 width = 1322;
 },
@@ -5497,7 +5695,9 @@ nodes = (
 }
 );
 userData = {
-assembly = "NPUSHB[ ]	/* 66 values pushed */\01212 1 3 1 34 1 0 4 2 76 0 2 3 5 3 2 5 128 0 5 4 3 5 4 126 0 3 3 1 97 0 1 1 37 77 0 4 4 0 97 6 1 0 0 38 0 78 1 0 33 32 29 27 20 18 14 13 10 8 0 36 1 36 7 8 22 \012CALL[ ]	/* CallFunction */";
+assembly = "NPUSHB[ ]	/* 66 values pushed */
+12 1 3 1 34 1 0 4 2 76 0 2 3 5 3 2 5 128 0 5 4 3 5 4 126 0 3 3 1 97 0 1 1 37 77 0 4 4 0 97 6 1 0 0 38 0 78 1 0 33 32 29 27 20 18 14 13 10 8 0 36 1 36 7 8 22 
+CALL[ ]	/* CallFunction */";
 };
 width = 1290;
 },
@@ -5646,7 +5846,9 @@ nodes = (
 }
 );
 userData = {
-assembly = "NPUSHB[ ]	/* 60 values pushed */\0125 1 3 1 2 1 0 2 2 76 4 1 3 3 1 2 2 75 5 1 3 3 1 95 0 1 1 31 77 0 2 2 0 95 4 1 0 0 32 0 78 17 17 1 0 17 28 17 27 20 18 9 6 0 16 1 16 6 8 22 \012CALL[ ]	/* CallFunction */";
+assembly = "NPUSHB[ ]	/* 60 values pushed */
+5 1 3 1 2 1 0 2 2 76 4 1 3 3 1 2 2 75 5 1 3 3 1 95 0 1 1 31 77 0 2 2 0 95 4 1 0 0 32 0 78 17 17 1 0 17 28 17 27 20 18 9 6 0 16 1 16 6 8 22 
+CALL[ ]	/* CallFunction */";
 };
 width = 1356;
 },
@@ -5764,7 +5966,22 @@ nodes = (
 }
 );
 userData = {
-assembly = "NPUSHB[ ]	/* 18 values pushed */\0126 1 3 1 5 1 2 3 4 1 6 7 3 1 0 6 4 76 \012MPPEM[ ]	/* MeasurePixelPerEm */\012PUSHB[ ]	/* 1 value pushed */\01212 \012LT[ ]	/* LessThan */\012IF[ ]	/* If */\012NPUSHB[ ]	/* 44 values pushed */\0120 2 3 4 3 2 114 8 1 7 5 6 6 7 114 0 4 0 5 7 4 5 103 0 3 3 1 95 0 1 1 31 77 0 6 6 0 96 0 0 0 32 0 78 \012ELSE[ ]	/* Else */\012NPUSHB[ ]	/* 46 values pushed */\0120 2 3 4 3 2 4 128 8 1 7 5 6 5 7 6 128 0 4 0 5 7 4 5 103 0 3 3 1 95 0 1 1 31 77 0 6 6 0 96 0 0 0 32 0 78 \012EIF[ ]	/* EndIf */\012NPUSHB[ ]	/* 16 values pushed */\0120 0 0 19 0 19 17 17 17 17 17 21 17 9 8 29 \012CALL[ ]	/* CallFunction */";
+assembly = "NPUSHB[ ]	/* 18 values pushed */
+6 1 3 1 5 1 2 3 4 1 6 7 3 1 0 6 4 76 
+MPPEM[ ]	/* MeasurePixelPerEm */
+PUSHB[ ]	/* 1 value pushed */
+12 
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+NPUSHB[ ]	/* 44 values pushed */
+0 2 3 4 3 2 114 8 1 7 5 6 6 7 114 0 4 0 5 7 4 5 103 0 3 3 1 95 0 1 1 31 77 0 6 6 0 96 0 0 0 32 0 78 
+ELSE[ ]	/* Else */
+NPUSHB[ ]	/* 46 values pushed */
+0 2 3 4 3 2 4 128 8 1 7 5 6 5 7 6 128 0 4 0 5 7 4 5 103 0 3 3 1 95 0 1 1 31 77 0 6 6 0 96 0 0 0 32 0 78 
+EIF[ ]	/* EndIf */
+NPUSHB[ ]	/* 16 values pushed */
+0 0 0 19 0 19 17 17 17 17 17 21 17 9 8 29 
+CALL[ ]	/* CallFunction */";
 };
 width = 1306;
 },
@@ -5864,7 +6081,22 @@ nodes = (
 }
 );
 userData = {
-assembly = "NPUSHB[ ]	/* 17 values pushed */\0126 1 3 1 5 1 2 3 17 4 3 0 4 0 5 3 76 \012MPPEM[ ]	/* MeasurePixelPerEm */\012PUSHB[ ]	/* 1 value pushed */\01212 \012LT[ ]	/* LessThan */\012IF[ ]	/* If */\012NPUSHB[ ]	/* 31 values pushed */\0120 2 3 4 3 2 114 0 4 0 5 0 4 5 103 0 3 3 1 95 0 1 1 31 77 0 0 0 32 0 78 \012ELSE[ ]	/* Else */\012NPUSHB[ ]	/* 32 values pushed */\0120 2 3 4 3 2 4 128 0 4 0 5 0 4 5 103 0 3 3 1 95 0 1 1 31 77 0 0 0 32 0 78 \012EIF[ ]	/* EndIf */\012NPUSHB[ ]	/* 9 values pushed */\01217 17 17 17 21 17 6 8 28 \012CALL[ ]	/* CallFunction */";
+assembly = "NPUSHB[ ]	/* 17 values pushed */
+6 1 3 1 5 1 2 3 17 4 3 0 4 0 5 3 76 
+MPPEM[ ]	/* MeasurePixelPerEm */
+PUSHB[ ]	/* 1 value pushed */
+12 
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+NPUSHB[ ]	/* 31 values pushed */
+0 2 3 4 3 2 114 0 4 0 5 0 4 5 103 0 3 3 1 95 0 1 1 31 77 0 0 0 32 0 78 
+ELSE[ ]	/* Else */
+NPUSHB[ ]	/* 32 values pushed */
+0 2 3 4 3 2 4 128 0 4 0 5 0 4 5 103 0 3 3 1 95 0 1 1 31 77 0 0 0 32 0 78 
+EIF[ ]	/* EndIf */
+NPUSHB[ ]	/* 9 values pushed */
+17 17 17 17 21 17 6 8 28 
+CALL[ ]	/* CallFunction */";
 };
 width = 1256;
 },
@@ -6002,7 +6234,9 @@ nodes = (
 }
 );
 userData = {
-assembly = "NPUSHB[ ]	/* 73 values pushed */\01212 1 3 1 30 1 4 5 35 1 0 4 3 76 0 2 3 6 3 2 6 128 0 6 0 5 4 6 5 103 0 3 3 1 97 0 1 1 37 77 0 4 4 0 97 7 1 0 0 38 0 78 1 0 34 33 32 31 28 26 19 17 14 13 10 8 0 37 1 37 8 8 22 \012CALL[ ]	/* CallFunction */";
+assembly = "NPUSHB[ ]	/* 73 values pushed */
+12 1 3 1 30 1 4 5 35 1 0 4 3 76 0 2 3 6 3 2 6 128 0 6 0 5 4 6 5 103 0 3 3 1 97 0 1 1 37 77 0 4 4 0 97 7 1 0 0 38 0 78 1 0 34 33 32 31 28 26 19 17 14 13 10 8 0 37 1 37 8 8 22 
+CALL[ ]	/* CallFunction */";
 };
 width = 1346;
 },
@@ -6140,7 +6374,9 @@ nodes = (
 }
 );
 userData = {
-assembly = "NPUSHB[ ]	/* 54 values pushed */\01218 17 14 13 10 9 6 5 8 2 1 27 24 23 20 19 4 3 0 8 0 5 2 76 0 2 0 5 0 2 5 104 3 1 1 1 31 77 4 1 0 0 32 0 78 19 21 19 19 21 17 6 8 28 \012CALL[ ]	/* CallFunction */";
+assembly = "NPUSHB[ ]	/* 54 values pushed */
+18 17 14 13 10 9 6 5 8 2 1 27 24 23 20 19 4 3 0 8 0 5 2 76 0 2 0 5 0 2 5 104 3 1 1 1 31 77 4 1 0 0 32 0 78 19 21 19 19 21 17 6 8 28 
+CALL[ ]	/* CallFunction */";
 };
 width = 1578;
 },
@@ -6236,7 +6472,9 @@ nodes = (
 }
 );
 userData = {
-assembly = "NPUSHB[ ]	/* 29 values pushed */\01211 10 9 6 5 4 3 0 8 0 1 1 76 0 1 1 31 77 0 0 0 32 0 78 21 17 2 8 24 \012CALL[ ]	/* CallFunction */";
+assembly = "NPUSHB[ ]	/* 29 values pushed */
+11 10 9 6 5 4 3 0 8 0 1 1 76 0 1 1 31 77 0 0 0 32 0 78 21 17 2 8 24 
+CALL[ ]	/* CallFunction */";
 };
 width = 685;
 },
@@ -6340,7 +6578,9 @@ nodes = (
 }
 );
 userData = {
-assembly = "NPUSHB[ ]	/* 49 values pushed */\01219 18 15 14 4 1 3 1 76 0 1 3 2 3 1 2 128 0 3 3 31 77 0 2 2 0 98 4 1 0 0 38 0 78 1 0 17 16 10 8 6 4 0 23 1 23 5 8 22 \012CALL[ ]	/* CallFunction */";
+assembly = "NPUSHB[ ]	/* 49 values pushed */
+19 18 15 14 4 1 3 1 76 0 1 3 2 3 1 2 128 0 3 3 31 77 0 2 2 0 98 4 1 0 0 38 0 78 1 0 17 16 10 8 6 4 0 23 1 23 5 8 22 
+CALL[ ]	/* CallFunction */";
 };
 width = 1169;
 },
@@ -6468,7 +6708,9 @@ nodes = (
 }
 );
 userData = {
-assembly = "NPUSHB[ ]	/* 42 values pushed */\01228 25 23 22 21 20 17 16 15 14 11 10 9 8 6 5 2 17 0 2 1 76 3 1 2 2 31 77 1 1 0 0 32 0 78 23 21 24 19 4 8 26 \012CALL[ ]	/* CallFunction */";
+assembly = "NPUSHB[ ]	/* 42 values pushed */
+28 25 23 22 21 20 17 16 15 14 11 10 9 8 6 5 2 17 0 2 1 76 3 1 2 2 31 77 1 1 0 0 32 0 78 23 21 24 19 4 8 26 
+CALL[ ]	/* CallFunction */";
 };
 width = 1501;
 },
@@ -6570,7 +6812,22 @@ nodes = (
 }
 );
 userData = {
-assembly = "NPUSHB[ ]	/* 17 values pushed */\01210 9 6 5 4 3 1 4 1 2 3 3 1 0 2 3 76 \012MPPEM[ ]	/* MeasurePixelPerEm */\012PUSHB[ ]	/* 1 value pushed */\01210 \012LT[ ]	/* LessThan */\012IF[ ]	/* If */\012NPUSHB[ ]	/* 24 values pushed */\0124 1 3 1 2 2 3 114 0 1 1 31 77 0 2 2 0 96 0 0 0 32 0 78 \012ELSE[ ]	/* Else */\012NPUSHB[ ]	/* 25 values pushed */\0124 1 3 1 2 1 3 2 128 0 1 1 31 77 0 2 2 0 96 0 0 0 32 0 78 \012EIF[ ]	/* EndIf */\012NPUSHB[ ]	/* 12 values pushed */\0120 0 0 13 0 13 19 21 17 5 8 25 \012CALL[ ]	/* CallFunction */";
+assembly = "NPUSHB[ ]	/* 17 values pushed */
+10 9 6 5 4 3 1 4 1 2 3 3 1 0 2 3 76 
+MPPEM[ ]	/* MeasurePixelPerEm */
+PUSHB[ ]	/* 1 value pushed */
+10 
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+NPUSHB[ ]	/* 24 values pushed */
+4 1 3 1 2 2 3 114 0 1 1 31 77 0 2 2 0 96 0 0 0 32 0 78 
+ELSE[ ]	/* Else */
+NPUSHB[ ]	/* 25 values pushed */
+4 1 3 1 2 1 3 2 128 0 1 1 31 77 0 2 2 0 96 0 0 0 32 0 78 
+EIF[ ]	/* EndIf */
+NPUSHB[ ]	/* 12 values pushed */
+0 0 0 13 0 13 19 21 17 5 8 25 
+CALL[ ]	/* CallFunction */";
 };
 width = 1210;
 },
@@ -6797,7 +7054,9 @@ nodes = (
 }
 );
 userData = {
-assembly = "NPUSHB[ ]	/* 37 values pushed */\01221 19 16 15 12 11 9 6 5 4 3 0 12 0 1 1 76 2 1 1 1 31 77 3 1 0 0 32 0 78 19 21 21 17 4 8 26 \012CALL[ ]	/* CallFunction */";
+assembly = "NPUSHB[ ]	/* 37 values pushed */
+21 19 16 15 12 11 9 6 5 4 3 0 12 0 1 1 76 2 1 1 1 31 77 3 1 0 0 32 0 78 19 21 21 17 4 8 26 
+CALL[ ]	/* CallFunction */";
 };
 width = 1592;
 },
@@ -6953,7 +7212,9 @@ nodes = (
 }
 );
 userData = {
-assembly = "NPUSHB[ ]	/* 42 values pushed */\0120 3 3 1 97 0 1 1 37 77 5 1 2 2 0 97 4 1 0 0 38 0 78 23 22 1 0 32 30 22 39 23 39 12 10 0 21 1 21 6 8 22 \012CALL[ ]	/* CallFunction */";
+assembly = "NPUSHB[ ]	/* 42 values pushed */
+0 3 3 1 97 0 1 1 37 77 5 1 2 2 0 97 4 1 0 0 38 0 78 23 22 1 0 32 30 22 39 23 39 12 10 0 21 1 21 6 8 22 
+CALL[ ]	/* CallFunction */";
 };
 width = 1351;
 },
@@ -7110,7 +7371,9 @@ nodes = (
 }
 );
 userData = {
-assembly = "NPUSHB[ ]	/* 56 values pushed */\0125 1 4 1 19 18 3 2 4 0 2 2 76 4 1 4 1 75 0 3 0 2 0 3 2 103 5 1 4 4 1 95 0 1 1 31 77 0 0 0 32 0 78 20 20 20 28 20 27 36 38 53 16 6 8 26 \012CALL[ ]	/* CallFunction */";
+assembly = "NPUSHB[ ]	/* 56 values pushed */
+5 1 4 1 19 18 3 2 4 0 2 2 76 4 1 4 1 75 0 3 0 2 0 3 2 103 5 1 4 4 1 95 0 1 1 31 77 0 0 0 32 0 78 20 20 20 28 20 27 36 38 53 16 6 8 26 
+CALL[ ]	/* CallFunction */";
 };
 width = 1297;
 },
@@ -7286,7 +7549,9 @@ nodes = (
 }
 );
 userData = {
-assembly = "NPUSHB[ ]	/* 46 values pushed */\01225 2 2 0 2 1 76 1 1 0 73 0 3 3 1 97 0 1 1 37 77 4 1 2 2 0 97 0 0 0 38 0 78 27 26 36 34 26 43 27 43 41 36 5 8 24 \012CALL[ ]	/* CallFunction */";
+assembly = "NPUSHB[ ]	/* 46 values pushed */
+25 2 2 0 2 1 76 1 1 0 73 0 3 3 1 97 0 1 1 37 77 4 1 2 2 0 97 0 0 0 38 0 78 27 26 36 34 26 43 27 43 41 36 5 8 24 
+CALL[ ]	/* CallFunction */";
 };
 width = 1376;
 },
@@ -7467,7 +7732,22 @@ nodes = (
 }
 );
 userData = {
-assembly = "NPUSHB[ ]	/* 19 values pushed */\0125 1 4 1 28 18 17 3 2 5 0 2 2 76 4 1 4 1 75 \012MPPEM[ ]	/* MeasurePixelPerEm */\012PUSHB[ ]	/* 1 value pushed */\01233 \012LT[ ]	/* LessThan */\012IF[ ]	/* If */\012NPUSHB[ ]	/* 33 values pushed */\0120 6 3 2 3 6 114 0 3 0 2 0 3 2 103 7 1 4 4 1 95 0 1 1 31 77 5 1 0 0 32 0 78 \012ELSE[ ]	/* Else */\012NPUSHB[ ]	/* 34 values pushed */\0120 6 3 2 3 6 2 128 0 3 0 2 0 3 2 103 7 1 4 4 1 95 0 1 1 31 77 5 1 0 0 32 0 78 \012EIF[ ]	/* EndIf */\012NPUSHB[ ]	/* 17 values pushed */\01219 19 32 31 30 29 19 27 19 26 36 38 37 16 8 8 26 \012CALL[ ]	/* CallFunction */";
+assembly = "NPUSHB[ ]	/* 19 values pushed */
+5 1 4 1 28 18 17 3 2 5 0 2 2 76 4 1 4 1 75 
+MPPEM[ ]	/* MeasurePixelPerEm */
+PUSHB[ ]	/* 1 value pushed */
+33 
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+NPUSHB[ ]	/* 33 values pushed */
+0 6 3 2 3 6 114 0 3 0 2 0 3 2 103 7 1 4 4 1 95 0 1 1 31 77 5 1 0 0 32 0 78 
+ELSE[ ]	/* Else */
+NPUSHB[ ]	/* 34 values pushed */
+0 6 3 2 3 6 2 128 0 3 0 2 0 3 2 103 7 1 4 4 1 95 0 1 1 31 77 5 1 0 0 32 0 78 
+EIF[ ]	/* EndIf */
+NPUSHB[ ]	/* 17 values pushed */
+19 19 32 31 30 29 19 27 19 26 36 38 37 16 8 8 26 
+CALL[ ]	/* CallFunction */";
 };
 width = 1385;
 },
@@ -7653,7 +7933,9 @@ nodes = (
 }
 );
 userData = {
-assembly = "NPUSHB[ ]	/* 66 values pushed */\01228 1 4 5 3 1 2 1 2 76 0 4 5 1 5 4 1 128 0 1 2 5 1 2 126 0 5 5 3 97 0 3 3 37 77 0 2 2 0 97 6 1 0 0 38 0 78 1 0 35 33 30 29 26 24 10 8 5 4 0 48 1 48 7 8 22 \012CALL[ ]	/* CallFunction */";
+assembly = "NPUSHB[ ]	/* 66 values pushed */
+28 1 4 5 3 1 2 1 2 76 0 4 5 1 5 4 1 128 0 1 2 5 1 2 126 0 5 5 3 97 0 3 3 37 77 0 2 2 0 97 6 1 0 0 38 0 78 1 0 35 33 30 29 26 24 10 8 5 4 0 48 1 48 7 8 22 
+CALL[ ]	/* CallFunction */";
 };
 width = 1206;
 },
@@ -7778,7 +8060,22 @@ nodes = (
 }
 );
 userData = {
-assembly = "NPUSHB[ ]	/* 9 values pushed */\01215 4 3 0 4 0 2 1 76 \012MPPEM[ ]	/* MeasurePixelPerEm */\012PUSHB[ ]	/* 1 value pushed */\01212 \012LT[ ]	/* LessThan */\012IF[ ]	/* If */\012NPUSHB[ ]	/* 25 values pushed */\0124 1 2 1 0 1 2 114 5 1 1 1 3 95 0 3 3 31 77 0 0 0 32 0 78 \012ELSE[ ]	/* Else */\012NPUSHB[ ]	/* 26 values pushed */\0124 1 2 1 0 1 2 0 128 5 1 1 1 3 95 0 3 3 31 77 0 0 0 32 0 78 \012EIF[ ]	/* EndIf */\012NPUSHB[ ]	/* 9 values pushed */\01217 17 17 17 19 17 6 8 28 \012CALL[ ]	/* CallFunction */";
+assembly = "NPUSHB[ ]	/* 9 values pushed */
+15 4 3 0 4 0 2 1 76 
+MPPEM[ ]	/* MeasurePixelPerEm */
+PUSHB[ ]	/* 1 value pushed */
+12 
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+NPUSHB[ ]	/* 25 values pushed */
+4 1 2 1 0 1 2 114 5 1 1 1 3 95 0 3 3 31 77 0 0 0 32 0 78 
+ELSE[ ]	/* Else */
+NPUSHB[ ]	/* 26 values pushed */
+4 1 2 1 0 1 2 0 128 5 1 1 1 3 95 0 3 3 31 77 0 0 0 32 0 78 
+EIF[ ]	/* EndIf */
+NPUSHB[ ]	/* 9 values pushed */
+17 17 17 17 19 17 6 8 28 
+CALL[ ]	/* CallFunction */";
 };
 width = 1406;
 },
@@ -7898,7 +8195,9 @@ nodes = (
 }
 );
 userData = {
-assembly = "NPUSHB[ ]	/* 46 values pushed */\01225 24 21 20 10 9 6 5 8 2 1 1 76 3 1 1 1 31 77 0 2 2 0 97 4 1 0 0 38 0 78 1 0 23 22 16 14 8 7 0 29 1 29 5 8 22 \012CALL[ ]	/* CallFunction */";
+assembly = "NPUSHB[ ]	/* 46 values pushed */
+25 24 21 20 10 9 6 5 8 2 1 1 76 3 1 1 1 31 77 0 2 2 0 97 4 1 0 0 38 0 78 1 0 23 22 16 14 8 7 0 29 1 29 5 8 22 
+CALL[ ]	/* CallFunction */";
 };
 width = 1522;
 },
@@ -8008,7 +8307,9 @@ nodes = (
 }
 );
 userData = {
-assembly = "NPUSHB[ ]	/* 30 values pushed */\01217 14 13 10 8 7 4 7 0 1 1 76 2 1 1 1 31 77 0 0 0 32 0 78 25 19 17 3 8 25 \012CALL[ ]	/* CallFunction */";
+assembly = "NPUSHB[ ]	/* 30 values pushed */
+17 14 13 10 8 7 4 7 0 1 1 76 2 1 1 1 31 77 0 0 0 32 0 78 25 19 17 3 8 25 
+CALL[ ]	/* CallFunction */";
 };
 width = 1508;
 },
@@ -8130,7 +8431,9 @@ nodes = (
 }
 );
 userData = {
-assembly = "NPUSHB[ ]	/* 36 values pushed */\01228 23 20 19 16 10 8 7 4 9 0 1 1 76 3 2 2 1 1 31 77 4 1 0 0 32 0 78 19 23 23 19 17 5 8 27 \012CALL[ ]	/* CallFunction */";
+assembly = "NPUSHB[ ]	/* 36 values pushed */
+28 23 20 19 16 10 8 7 4 9 0 1 1 76 3 2 2 1 1 31 77 4 1 0 0 32 0 78 19 23 23 19 17 5 8 27 
+CALL[ ]	/* CallFunction */";
 };
 width = 2129;
 },
@@ -8260,7 +8563,9 @@ nodes = (
 }
 );
 userData = {
-assembly = "NPUSHB[ ]	/* 41 values pushed */\01227 26 25 24 21 19 17 14 13 12 11 10 7 5 3 0 16 0 1 1 76 2 1 1 1 31 77 3 1 0 0 32 0 78 22 22 22 17 4 8 26 \012CALL[ ]	/* CallFunction */";
+assembly = "NPUSHB[ ]	/* 41 values pushed */
+27 26 25 24 21 19 17 14 13 12 11 10 7 5 3 0 16 0 1 1 76 2 1 1 1 31 77 3 1 0 0 32 0 78 22 22 22 17 4 8 26 
+CALL[ ]	/* CallFunction */";
 };
 width = 1529;
 },
@@ -8376,7 +8681,9 @@ nodes = (
 }
 );
 userData = {
-assembly = "NPUSHB[ ]	/* 36 values pushed */\01222 21 19 16 15 12 11 10 7 5 4 3 0 13 0 1 1 76 2 1 1 1 31 77 0 0 0 32 0 78 24 22 17 3 8 25 \012CALL[ ]	/* CallFunction */";
+assembly = "NPUSHB[ ]	/* 36 values pushed */
+22 21 19 16 15 12 11 10 7 5 4 3 0 13 0 1 1 76 2 1 1 1 31 77 0 0 0 32 0 78 24 22 17 3 8 25 
+CALL[ ]	/* CallFunction */";
 };
 width = 1461;
 },
@@ -8470,7 +8777,31 @@ nodes = (
 }
 );
 userData = {
-assembly = "NPUSHB[ ]	/* 10 values pushed */\01210 1 1 3 3 1 0 4 2 76 \012MPPEM[ ]	/* MeasurePixelPerEm */\012PUSHB[ ]	/* 1 value pushed */\01212 \012LT[ ]	/* LessThan */\012IF[ ]	/* If */\012NPUSHB[ ]	/* 35 values pushed */\0120 2 1 5 1 2 114 6 1 5 4 4 5 112 0 1 1 3 95 0 3 3 31 77 0 4 4 0 96 0 0 0 32 0 78 \012ELSE[ ]	/* Else */\012MPPEM[ ]	/* MeasurePixelPerEm */\012PUSHB[ ]	/* 1 value pushed */\01214 \012LT[ ]	/* LessThan */\012IF[ ]	/* If */\012NPUSHB[ ]	/* 36 values pushed */\0120 2 1 5 1 2 114 6 1 5 4 1 5 4 126 0 1 1 3 95 0 3 3 31 77 0 4 4 0 96 0 0 0 32 0 78 \012ELSE[ ]	/* Else */\012NPUSHB[ ]	/* 37 values pushed */\0120 2 1 5 1 2 5 128 6 1 5 4 1 5 4 126 0 1 1 3 95 0 3 3 31 77 0 4 4 0 96 0 0 0 32 0 78 \012EIF[ ]	/* EndIf */\012EIF[ ]	/* EndIf */\012NPUSHB[ ]	/* 14 values pushed */\0120 0 0 13 0 13 18 17 17 18 17 7 8 27 \012CALL[ ]	/* CallFunction */";
+assembly = "NPUSHB[ ]	/* 10 values pushed */
+10 1 1 3 3 1 0 4 2 76 
+MPPEM[ ]	/* MeasurePixelPerEm */
+PUSHB[ ]	/* 1 value pushed */
+12 
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+NPUSHB[ ]	/* 35 values pushed */
+0 2 1 5 1 2 114 6 1 5 4 4 5 112 0 1 1 3 95 0 3 3 31 77 0 4 4 0 96 0 0 0 32 0 78 
+ELSE[ ]	/* Else */
+MPPEM[ ]	/* MeasurePixelPerEm */
+PUSHB[ ]	/* 1 value pushed */
+14 
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+NPUSHB[ ]	/* 36 values pushed */
+0 2 1 5 1 2 114 6 1 5 4 1 5 4 126 0 1 1 3 95 0 3 3 31 77 0 4 4 0 96 0 0 0 32 0 78 
+ELSE[ ]	/* Else */
+NPUSHB[ ]	/* 37 values pushed */
+0 2 1 5 1 2 5 128 6 1 5 4 1 5 4 126 0 1 1 3 95 0 3 3 31 77 0 4 4 0 96 0 0 0 32 0 78 
+EIF[ ]	/* EndIf */
+EIF[ ]	/* EndIf */
+NPUSHB[ ]	/* 14 values pushed */
+0 0 0 13 0 13 18 17 17 18 17 7 8 27 
+CALL[ ]	/* CallFunction */";
 };
 width = 1197;
 },
@@ -8544,7 +8875,9 @@ nodes = (
 }
 );
 userData = {
-assembly = "NPUSHB[ ]	/* 38 values pushed */\0120 1 0 2 3 1 2 103 4 1 3 0 0 3 87 4 1 3 3 0 95 0 0 3 0 79 0 0 0 7 0 7 17 17 17 5 8 25 \012CALL[ ]	/* CallFunction */";
+assembly = "NPUSHB[ ]	/* 38 values pushed */
+0 1 0 2 3 1 2 103 4 1 3 0 0 3 87 4 1 3 3 0 95 0 0 3 0 79 0 0 0 7 0 7 17 17 17 5 8 25 
+CALL[ ]	/* CallFunction */";
 };
 width = 573;
 },
@@ -8604,7 +8937,9 @@ nodes = (
 }
 );
 userData = {
-assembly = "NPUSHB[ ]	/* 22 values pushed */\0120 0 1 0 134 2 1 1 1 31 1 78 0 0 0 3 0 3 17 3 8 23 \012CALL[ ]	/* CallFunction */";
+assembly = "NPUSHB[ ]	/* 22 values pushed */
+0 0 1 0 134 2 1 1 1 31 1 78 0 0 0 3 0 3 17 3 8 23 
+CALL[ ]	/* CallFunction */";
 };
 width = 841;
 },
@@ -8668,7 +9003,9 @@ nodes = (
 }
 );
 userData = {
-assembly = "NPUSHB[ ]	/* 37 values pushed */\0124 1 3 0 2 1 3 2 103 0 1 0 0 1 87 0 1 1 0 95 0 0 1 0 79 0 0 0 7 0 7 17 17 17 5 8 25 \012CALL[ ]	/* CallFunction */";
+assembly = "NPUSHB[ ]	/* 37 values pushed */
+4 1 3 0 2 1 3 2 103 0 1 0 0 1 87 0 1 1 0 95 0 0 1 0 79 0 0 0 7 0 7 17 17 17 5 8 25 
+CALL[ ]	/* CallFunction */";
 };
 width = 573;
 },
@@ -8740,7 +9077,15 @@ nodes = (
 }
 );
 userData = {
-assembly = "PUSHB[ ]	/* 2 values pushed */\0126 100 \012WCVTP[ ]	/* WriteCVTInPixels */\012NPUSHB[ ]	/* 22 values pushed */\0128 1 0 1 1 76 0 1 0 1 133 2 1 0 0 118 17 17 17 3 8 25 \012CALL[ ]	/* CallFunction */\012PUSHB[ ]	/* 2 values pushed */\0126 0 \012WCVTP[ ]	/* WriteCVTInPixels */";
+assembly = "PUSHB[ ]	/* 2 values pushed */
+6 100 
+WCVTP[ ]	/* WriteCVTInPixels */
+NPUSHB[ ]	/* 22 values pushed */
+8 1 0 1 1 76 0 1 0 1 133 2 1 0 0 118 17 17 17 3 8 25 
+CALL[ ]	/* CallFunction */
+PUSHB[ ]	/* 2 values pushed */
+6 0 
+WCVTP[ ]	/* WriteCVTInPixels */";
 };
 width = 864;
 },
@@ -8802,7 +9147,15 @@ nodes = (
 }
 );
 userData = {
-assembly = "PUSHB[ ]	/* 2 values pushed */\0126 100 \012WCVTP[ ]	/* WriteCVTInPixels */\012NPUSHB[ ]	/* 28 values pushed */\0122 1 1 0 0 1 87 2 1 1 1 0 95 0 0 1 0 79 0 0 0 3 0 3 17 3 8 23 \012CALL[ ]	/* CallFunction */\012PUSHB[ ]	/* 2 values pushed */\0126 0 \012WCVTP[ ]	/* WriteCVTInPixels */";
+assembly = "PUSHB[ ]	/* 2 values pushed */
+6 100 
+WCVTP[ ]	/* WriteCVTInPixels */
+NPUSHB[ ]	/* 28 values pushed */
+2 1 1 0 0 1 87 2 1 1 1 0 95 0 0 1 0 79 0 0 0 3 0 3 17 3 8 23 
+CALL[ ]	/* CallFunction */
+PUSHB[ ]	/* 2 values pushed */
+6 0 
+WCVTP[ ]	/* WriteCVTInPixels */";
 };
 width = 1168;
 },
@@ -8858,7 +9211,15 @@ nodes = (
 }
 );
 userData = {
-assembly = "PUSHB[ ]	/* 2 values pushed */\0126 100 \012WCVTP[ ]	/* WriteCVTInPixels */\012NPUSHB[ ]	/* 21 values pushed */\0122 1 0 1 0 133 0 1 1 118 1 0 3 2 0 4 1 4 3 8 22 \012CALL[ ]	/* CallFunction */\012PUSHB[ ]	/* 2 values pushed */\0126 0 \012WCVTP[ ]	/* WriteCVTInPixels */";
+assembly = "PUSHB[ ]	/* 2 values pushed */
+6 100 
+WCVTP[ ]	/* WriteCVTInPixels */
+NPUSHB[ ]	/* 21 values pushed */
+2 1 0 1 0 133 0 1 1 118 1 0 3 2 0 4 1 4 3 8 22 
+CALL[ ]	/* CallFunction */
+PUSHB[ ]	/* 2 values pushed */
+6 0 
+WCVTP[ ]	/* WriteCVTInPixels */";
 };
 width = 496;
 },
@@ -9012,7 +9373,31 @@ nodes = (
 }
 );
 userData = {
-assembly = "MPPEM[ ]	/* MeasurePixelPerEm */\012PUSHB[ ]	/* 1 value pushed */\01223 \012LT[ ]	/* LessThan */\012IF[ ]	/* If */\012NPUSHB[ ]	/* 15 values pushed */\01218 1 2 4 40 34 2 6 7 29 1 0 6 3 76 \012ELSE[ ]	/* Else */\012NPUSHB[ ]	/* 15 values pushed */\01218 1 2 4 40 34 2 6 7 29 1 5 6 3 76 \012EIF[ ]	/* EndIf */\012MPPEM[ ]	/* MeasurePixelPerEm */\012PUSHB[ ]	/* 1 value pushed */\01223 \012LT[ ]	/* LessThan */\012IF[ ]	/* If */\012NPUSHB[ ]	/* 40 values pushed */\0120 3 2 1 2 3 1 128 0 1 0 7 6 1 7 103 0 2 2 4 97 0 4 4 40 77 9 1 6 6 0 97 5 8 2 0 0 38 0 78 \012ELSE[ ]	/* Else */\012NPUSHB[ ]	/* 44 values pushed */\0120 3 2 1 2 3 1 128 0 1 0 7 6 1 7 103 0 2 2 4 97 0 4 4 40 77 0 5 5 32 77 9 1 6 6 0 97 8 1 0 0 38 0 78 \012EIF[ ]	/* EndIf */\012NPUSHB[ ]	/* 27 values pushed */\01238 37 1 0 43 41 37 47 38 47 31 30 22 20 17 16 13 11 8 6 0 36 1 36 10 8 22 \012CALL[ ]	/* CallFunction */";
+assembly = "MPPEM[ ]	/* MeasurePixelPerEm */
+PUSHB[ ]	/* 1 value pushed */
+23 
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+NPUSHB[ ]	/* 15 values pushed */
+18 1 2 4 40 34 2 6 7 29 1 0 6 3 76 
+ELSE[ ]	/* Else */
+NPUSHB[ ]	/* 15 values pushed */
+18 1 2 4 40 34 2 6 7 29 1 5 6 3 76 
+EIF[ ]	/* EndIf */
+MPPEM[ ]	/* MeasurePixelPerEm */
+PUSHB[ ]	/* 1 value pushed */
+23 
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+NPUSHB[ ]	/* 40 values pushed */
+0 3 2 1 2 3 1 128 0 1 0 7 6 1 7 103 0 2 2 4 97 0 4 4 40 77 9 1 6 6 0 97 5 8 2 0 0 38 0 78 
+ELSE[ ]	/* Else */
+NPUSHB[ ]	/* 44 values pushed */
+0 3 2 1 2 3 1 128 0 1 0 7 6 1 7 103 0 2 2 4 97 0 4 4 40 77 0 5 5 32 77 9 1 6 6 0 97 8 1 0 0 38 0 78 
+EIF[ ]	/* EndIf */
+NPUSHB[ ]	/* 27 values pushed */
+38 37 1 0 43 41 37 47 38 47 31 30 22 20 17 16 13 11 8 6 0 36 1 36 10 8 22 
+CALL[ ]	/* CallFunction */";
 };
 width = 1132;
 },
@@ -9193,7 +9578,22 @@ nodes = (
 }
 );
 userData = {
-assembly = "NPUSHB[ ]	/* 21 values pushed */\0127 6 2 3 2 10 1 5 3 34 33 2 4 5 3 76 3 1 4 1 75 \012MPPEM[ ]	/* MeasurePixelPerEm */\012PUSHB[ ]	/* 1 value pushed */\01223 \012LT[ ]	/* LessThan */\012IF[ ]	/* If */\012NPUSHB[ ]	/* 29 values pushed */\0120 2 2 33 77 0 5 5 3 97 0 3 3 40 77 7 1 4 4 0 97 1 6 2 0 0 38 0 78 \012ELSE[ ]	/* Else */\012NPUSHB[ ]	/* 33 values pushed */\0120 2 2 33 77 0 5 5 3 97 0 3 3 40 77 0 1 1 32 77 7 1 4 4 0 97 6 1 0 0 38 0 78 \012EIF[ ]	/* EndIf */\012NPUSHB[ ]	/* 23 values pushed */\01223 22 1 0 31 29 22 36 23 36 14 12 9 8 5 4 0 21 1 21 8 8 22 \012CALL[ ]	/* CallFunction */";
+assembly = "NPUSHB[ ]	/* 21 values pushed */
+7 6 2 3 2 10 1 5 3 34 33 2 4 5 3 76 3 1 4 1 75 
+MPPEM[ ]	/* MeasurePixelPerEm */
+PUSHB[ ]	/* 1 value pushed */
+23 
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+NPUSHB[ ]	/* 29 values pushed */
+0 2 2 33 77 0 5 5 3 97 0 3 3 40 77 7 1 4 4 0 97 1 6 2 0 0 38 0 78 
+ELSE[ ]	/* Else */
+NPUSHB[ ]	/* 33 values pushed */
+0 2 2 33 77 0 5 5 3 97 0 3 3 40 77 0 1 1 32 77 7 1 4 4 0 97 6 1 0 0 38 0 78 
+EIF[ ]	/* EndIf */
+NPUSHB[ ]	/* 23 values pushed */
+23 22 1 0 31 29 22 36 23 36 14 12 9 8 5 4 0 21 1 21 8 8 22 
+CALL[ ]	/* CallFunction */";
 };
 width = 1145;
 },
@@ -9351,7 +9751,9 @@ nodes = (
 }
 );
 userData = {
-assembly = "NPUSHB[ ]	/* 62 values pushed */\01212 1 2 3 1 76 0 2 3 5 3 2 5 128 0 5 4 3 5 4 126 0 3 3 1 97 0 1 1 40 77 0 4 4 0 97 6 1 0 0 38 0 78 1 0 31 30 28 26 19 17 14 13 10 8 0 35 1 35 7 8 22 \012CALL[ ]	/* CallFunction */";
+assembly = "NPUSHB[ ]	/* 62 values pushed */
+12 1 2 3 1 76 0 2 3 5 3 2 5 128 0 5 4 3 5 4 126 0 3 3 1 97 0 1 1 40 77 0 4 4 0 97 6 1 0 0 38 0 78 1 0 31 30 28 26 19 17 14 13 10 8 0 35 1 35 7 8 22 
+CALL[ ]	/* CallFunction */";
 };
 width = 1067;
 },
@@ -9521,7 +9923,31 @@ nodes = (
 }
 );
 userData = {
-assembly = "MPPEM[ ]	/* MeasurePixelPerEm */\012PUSHB[ ]	/* 1 value pushed */\01223 \012LT[ ]	/* LessThan */\012IF[ ]	/* If */\012NPUSHB[ ]	/* 22 values pushed */\01214 13 2 1 2 12 1 5 1 29 28 18 3 4 5 22 19 2 0 4 4 76 \012ELSE[ ]	/* Else */\012NPUSHB[ ]	/* 22 values pushed */\01214 13 2 1 2 12 1 5 1 29 28 18 3 4 5 22 19 2 3 4 4 76 \012EIF[ ]	/* EndIf */\012MPPEM[ ]	/* MeasurePixelPerEm */\012PUSHB[ ]	/* 1 value pushed */\01223 \012LT[ ]	/* LessThan */\012IF[ ]	/* If */\012NPUSHB[ ]	/* 29 values pushed */\0120 2 2 33 77 0 5 5 1 97 0 1 1 40 77 7 1 4 4 0 97 3 6 2 0 0 38 0 78 \012ELSE[ ]	/* Else */\012NPUSHB[ ]	/* 33 values pushed */\0120 2 2 33 77 0 5 5 1 97 0 1 1 40 77 0 3 3 32 77 7 1 4 4 0 97 6 1 0 0 38 0 78 \012EIF[ ]	/* EndIf */\012NPUSHB[ ]	/* 23 values pushed */\01226 25 1 0 33 31 25 39 26 39 21 20 17 15 10 8 0 24 1 24 8 8 22 \012CALL[ ]	/* CallFunction */";
+assembly = "MPPEM[ ]	/* MeasurePixelPerEm */
+PUSHB[ ]	/* 1 value pushed */
+23 
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+NPUSHB[ ]	/* 22 values pushed */
+14 13 2 1 2 12 1 5 1 29 28 18 3 4 5 22 19 2 0 4 4 76 
+ELSE[ ]	/* Else */
+NPUSHB[ ]	/* 22 values pushed */
+14 13 2 1 2 12 1 5 1 29 28 18 3 4 5 22 19 2 3 4 4 76 
+EIF[ ]	/* EndIf */
+MPPEM[ ]	/* MeasurePixelPerEm */
+PUSHB[ ]	/* 1 value pushed */
+23 
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+NPUSHB[ ]	/* 29 values pushed */
+0 2 2 33 77 0 5 5 1 97 0 1 1 40 77 7 1 4 4 0 97 3 6 2 0 0 38 0 78 
+ELSE[ ]	/* Else */
+NPUSHB[ ]	/* 33 values pushed */
+0 2 2 33 77 0 5 5 1 97 0 1 1 40 77 0 3 3 32 77 7 1 4 4 0 97 6 1 0 0 38 0 78 
+EIF[ ]	/* EndIf */
+NPUSHB[ ]	/* 23 values pushed */
+26 25 1 0 33 31 25 39 26 39 21 20 17 15 10 8 0 24 1 24 8 8 22 
+CALL[ ]	/* CallFunction */";
 };
 width = 1218;
 },
@@ -9696,7 +10122,9 @@ nodes = (
 }
 );
 userData = {
-assembly = "NPUSHB[ ]	/* 59 values pushed */\01223 1 3 2 24 1 0 3 2 76 0 4 0 2 3 4 2 103 0 5 5 1 97 0 1 1 40 77 0 3 3 0 97 6 1 0 0 38 0 78 1 0 35 33 29 27 21 19 15 14 10 8 0 26 1 26 7 8 22 \012CALL[ ]	/* CallFunction */";
+assembly = "NPUSHB[ ]	/* 59 values pushed */
+23 1 3 2 24 1 0 3 2 76 0 4 0 2 3 4 2 103 0 5 5 1 97 0 1 1 40 77 0 3 3 0 97 6 1 0 0 38 0 78 1 0 35 33 29 27 21 19 15 14 10 8 0 26 1 26 7 8 22 
+CALL[ ]	/* CallFunction */";
 };
 width = 1059;
 },
@@ -9839,7 +10267,9 @@ nodes = (
 }
 );
 userData = {
-assembly = "NPUSHB[ ]	/* 55 values pushed */\01214 1 4 3 15 1 2 4 27 26 3 2 4 0 1 3 76 0 4 4 3 97 0 3 3 39 77 6 1 1 1 2 95 5 1 2 2 34 77 0 0 0 32 0 78 17 19 37 35 17 19 16 7 8 29 \012CALL[ ]	/* CallFunction */";
+assembly = "NPUSHB[ ]	/* 55 values pushed */
+14 1 4 3 15 1 2 4 27 26 3 2 4 0 1 3 76 0 4 4 3 97 0 3 3 39 77 6 1 1 1 2 95 5 1 2 2 34 77 0 0 0 32 0 78 17 19 37 35 17 19 16 7 8 29 
+CALL[ ]	/* CallFunction */";
 };
 width = 725;
 },
@@ -10035,7 +10465,31 @@ nodes = (
 }
 );
 userData = {
-assembly = "MPPEM[ ]	/* MeasurePixelPerEm */\012PUSHB[ ]	/* 1 value pushed */\01225 \012LT[ ]	/* LessThan */\012IF[ ]	/* If */\012NPUSHB[ ]	/* 25 values pushed */\01249 26 2 6 3 50 37 36 3 5 6 11 1 2 5 4 1 1 2 3 1 0 1 5 76 \012ELSE[ ]	/* Else */\012NPUSHB[ ]	/* 25 values pushed */\01249 26 2 6 4 50 37 36 3 5 6 11 1 2 5 4 1 1 2 3 1 0 1 5 76 \012EIF[ ]	/* EndIf */\012MPPEM[ ]	/* MeasurePixelPerEm */\012PUSHB[ ]	/* 1 value pushed */\01225 \012LT[ ]	/* LessThan */\012IF[ ]	/* If */\012NPUSHB[ ]	/* 36 values pushed */\0120 6 6 3 95 10 7 4 3 3 3 34 77 9 1 5 5 2 97 0 2 2 38 77 0 1 1 0 97 8 1 0 0 42 0 78 \012ELSE[ ]	/* Else */\012NPUSHB[ ]	/* 40 values pushed */\01210 7 2 4 4 34 77 0 6 6 3 97 0 3 3 40 77 9 1 5 5 2 97 0 2 2 38 77 0 1 1 0 97 8 1 0 0 42 0 78 \012EIF[ ]	/* EndIf */\012NPUSHB[ ]	/* 31 values pushed */\01248 48 34 33 1 0 48 51 48 51 41 39 33 47 34 47 28 27 24 22 15 13 8 6 0 32 1 32 11 8 22 \012CALL[ ]	/* CallFunction */";
+assembly = "MPPEM[ ]	/* MeasurePixelPerEm */
+PUSHB[ ]	/* 1 value pushed */
+25 
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+NPUSHB[ ]	/* 25 values pushed */
+49 26 2 6 3 50 37 36 3 5 6 11 1 2 5 4 1 1 2 3 1 0 1 5 76 
+ELSE[ ]	/* Else */
+NPUSHB[ ]	/* 25 values pushed */
+49 26 2 6 4 50 37 36 3 5 6 11 1 2 5 4 1 1 2 3 1 0 1 5 76 
+EIF[ ]	/* EndIf */
+MPPEM[ ]	/* MeasurePixelPerEm */
+PUSHB[ ]	/* 1 value pushed */
+25 
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+NPUSHB[ ]	/* 36 values pushed */
+0 6 6 3 95 10 7 4 3 3 3 34 77 9 1 5 5 2 97 0 2 2 38 77 0 1 1 0 97 8 1 0 0 42 0 78 
+ELSE[ ]	/* Else */
+NPUSHB[ ]	/* 40 values pushed */
+10 7 2 4 4 34 77 0 6 6 3 97 0 3 3 40 77 9 1 5 5 2 97 0 2 2 38 77 0 1 1 0 97 8 1 0 0 42 0 78 
+EIF[ ]	/* EndIf */
+NPUSHB[ ]	/* 31 values pushed */
+48 48 34 33 1 0 48 51 48 51 41 39 33 47 34 47 28 27 24 22 15 13 8 6 0 32 1 32 11 8 22 
+CALL[ ]	/* CallFunction */";
 };
 width = 1157;
 },
@@ -10201,7 +10655,9 @@ nodes = (
 }
 );
 userData = {
-assembly = "NPUSHB[ ]	/* 50 values pushed */\0125 4 2 2 1 29 28 27 20 19 16 15 8 3 2 10 0 4 2 76 0 1 1 33 77 0 4 4 2 97 0 2 2 40 77 3 1 0 0 32 0 78 37 21 35 21 16 5 8 27 \012CALL[ ]	/* CallFunction */";
+assembly = "NPUSHB[ ]	/* 50 values pushed */
+5 4 2 2 1 29 28 27 20 19 16 15 8 3 2 10 0 4 2 76 0 1 1 33 77 0 4 4 2 97 0 2 2 40 77 3 1 0 0 32 0 78 37 21 35 21 16 5 8 27 
+CALL[ ]	/* CallFunction */";
 };
 width = 1315;
 },
@@ -10313,7 +10769,9 @@ nodes = (
 }
 );
 userData = {
-assembly = "NPUSHB[ ]	/* 47 values pushed */\01213 10 9 8 7 4 6 2 3 1 76 0 0 0 1 95 4 1 1 1 33 77 0 3 3 34 77 0 2 2 32 2 78 0 0 12 11 6 5 0 3 0 3 17 5 8 23 \012CALL[ ]	/* CallFunction */";
+assembly = "NPUSHB[ ]	/* 47 values pushed */
+13 10 9 8 7 4 6 2 3 1 76 0 0 0 1 95 4 1 1 1 33 77 0 3 3 34 77 0 2 2 32 2 78 0 0 12 11 6 5 0 3 0 3 17 5 8 23 
+CALL[ ]	/* CallFunction */";
 };
 width = 652;
 },
@@ -10430,7 +10888,9 @@ nodes = (
 }
 );
 userData = {
-assembly = "NPUSHB[ ]	/* 61 values pushed */\01212 11 4 3 1 2 3 1 0 1 2 76 0 3 3 4 95 6 1 4 4 33 77 0 2 2 34 77 0 1 1 0 98 5 1 0 0 42 0 78 18 18 1 0 18 21 18 21 20 19 14 13 8 6 0 17 1 17 7 8 22 \012CALL[ ]	/* CallFunction */";
+assembly = "NPUSHB[ ]	/* 61 values pushed */
+12 11 4 3 1 2 3 1 0 1 2 76 0 3 3 4 95 6 1 4 4 33 77 0 2 2 34 77 0 1 1 0 98 5 1 0 0 42 0 78 18 18 1 0 18 21 18 21 20 19 14 13 8 6 0 17 1 17 7 8 22 
+CALL[ ]	/* CallFunction */";
 };
 width = 525;
 },
@@ -10557,7 +11017,9 @@ nodes = (
 }
 );
 userData = {
-assembly = "NPUSHB[ ]	/* 47 values pushed */\01217 16 2 3 2 26 23 21 20 15 14 11 10 9 8 6 5 2 13 0 3 2 76 0 2 2 33 77 0 3 3 34 77 1 1 0 0 32 0 78 21 21 24 19 4 8 26 \012CALL[ ]	/* CallFunction */";
+assembly = "NPUSHB[ ]	/* 47 values pushed */
+17 16 2 3 2 26 23 21 20 15 14 11 10 9 8 6 5 2 13 0 3 2 76 0 2 2 33 77 0 3 3 34 77 1 1 0 0 32 0 78 21 21 24 19 4 8 26 
+CALL[ ]	/* CallFunction */";
 };
 width = 1287;
 },
@@ -10649,7 +11111,9 @@ nodes = (
 }
 );
 userData = {
-assembly = "NPUSHB[ ]	/* 27 values pushed */\0129 6 5 4 3 0 6 0 1 1 76 0 1 1 33 77 0 0 0 32 0 78 21 17 2 8 24 \012CALL[ ]	/* CallFunction */";
+assembly = "NPUSHB[ ]	/* 27 values pushed */
+9 6 5 4 3 0 6 0 1 1 76 0 1 1 33 77 0 0 0 32 0 78 21 17 2 8 24 
+CALL[ ]	/* CallFunction */";
 };
 width = 653;
 },
@@ -10801,7 +11265,22 @@ nodes = (
 }
 );
 userData = {
-assembly = "NPUSHB[ ]	/* 26 values pushed */\0125 1 5 1 48 47 46 39 38 35 34 33 26 25 22 21 14 8 4 3 2 17 0 5 2 76 \012MPPEM[ ]	/* MeasurePixelPerEm */\012PUSHB[ ]	/* 1 value pushed */\01225 \012LT[ ]	/* LessThan */\012IF[ ]	/* If */\012NPUSHB[ ]	/* 21 values pushed */\0127 1 5 5 1 97 3 2 2 1 1 34 77 6 4 2 0 0 32 0 78 \012ELSE[ ]	/* Else */\012NPUSHB[ ]	/* 25 values pushed */\0120 1 1 34 77 7 1 5 5 2 97 3 1 2 2 40 77 6 4 2 0 0 32 0 78 \012EIF[ ]	/* EndIf */\012NPUSHB[ ]	/* 11 values pushed */\01237 21 37 21 36 35 21 16 8 8 30 \012CALL[ ]	/* CallFunction */";
+assembly = "NPUSHB[ ]	/* 26 values pushed */
+5 1 5 1 48 47 46 39 38 35 34 33 26 25 22 21 14 8 4 3 2 17 0 5 2 76 
+MPPEM[ ]	/* MeasurePixelPerEm */
+PUSHB[ ]	/* 1 value pushed */
+25 
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+NPUSHB[ ]	/* 21 values pushed */
+7 1 5 5 1 97 3 2 2 1 1 34 77 6 4 2 0 0 32 0 78 
+ELSE[ ]	/* Else */
+NPUSHB[ ]	/* 25 values pushed */
+0 1 1 34 77 7 1 5 5 2 97 3 1 2 2 40 77 6 4 2 0 0 32 0 78 
+EIF[ ]	/* EndIf */
+NPUSHB[ ]	/* 11 values pushed */
+37 21 37 21 36 35 21 16 8 8 30 
+CALL[ ]	/* CallFunction */";
 };
 width = 1977;
 },
@@ -10954,7 +11433,22 @@ nodes = (
 }
 );
 userData = {
-assembly = "NPUSHB[ ]	/* 20 values pushed */\0125 1 4 1 29 28 27 20 19 16 15 8 4 3 2 11 0 4 2 76 \012MPPEM[ ]	/* MeasurePixelPerEm */\012PUSHB[ ]	/* 1 value pushed */\01225 \012LT[ ]	/* LessThan */\012IF[ ]	/* If */\012NPUSHB[ ]	/* 18 values pushed */\0120 4 4 1 97 2 1 1 1 34 77 3 1 0 0 32 0 78 \012ELSE[ ]	/* Else */\012NPUSHB[ ]	/* 22 values pushed */\0120 1 1 34 77 0 4 4 2 97 0 2 2 40 77 3 1 0 0 32 0 78 \012EIF[ ]	/* EndIf */\012PUSHB[ ]	/* 8 values pushed */\01237 21 35 21 16 5 8 27 \012CALL[ ]	/* CallFunction */";
+assembly = "NPUSHB[ ]	/* 20 values pushed */
+5 1 4 1 29 28 27 20 19 16 15 8 4 3 2 11 0 4 2 76 
+MPPEM[ ]	/* MeasurePixelPerEm */
+PUSHB[ ]	/* 1 value pushed */
+25 
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+NPUSHB[ ]	/* 18 values pushed */
+0 4 4 1 97 2 1 1 1 34 77 3 1 0 0 32 0 78 
+ELSE[ ]	/* Else */
+NPUSHB[ ]	/* 22 values pushed */
+0 1 1 34 77 0 4 4 2 97 0 2 2 40 77 3 1 0 0 32 0 78 
+EIF[ ]	/* EndIf */
+PUSHB[ ]	/* 8 values pushed */
+37 21 35 21 16 5 8 27 
+CALL[ ]	/* CallFunction */";
 };
 width = 1343;
 },
@@ -11110,7 +11604,9 @@ nodes = (
 }
 );
 userData = {
-assembly = "NPUSHB[ ]	/* 42 values pushed */\0120 3 3 1 97 0 1 1 40 77 5 1 2 2 0 97 4 1 0 0 38 0 78 19 18 1 0 28 26 18 35 19 35 10 8 0 17 1 17 6 8 22 \012CALL[ ]	/* CallFunction */";
+assembly = "NPUSHB[ ]	/* 42 values pushed */
+0 3 3 1 97 0 1 1 40 77 5 1 2 2 0 97 4 1 0 0 38 0 78 19 18 1 0 28 26 18 35 19 35 10 8 0 17 1 17 6 8 22 
+CALL[ ]	/* CallFunction */";
 };
 width = 1124;
 },
@@ -11287,7 +11783,22 @@ nodes = (
 }
 );
 userData = {
-assembly = "NPUSHB[ ]	/* 24 values pushed */\0128 5 2 5 1 38 37 4 3 4 5 23 1 3 4 25 24 3 2 4 0 3 4 76 \012MPPEM[ ]	/* MeasurePixelPerEm */\012PUSHB[ ]	/* 1 value pushed */\01225 \012LT[ ]	/* LessThan */\012IF[ ]	/* If */\012NPUSHB[ ]	/* 28 values pushed */\0120 5 5 1 97 2 1 1 1 34 77 6 1 4 4 3 97 0 3 3 38 77 0 0 0 36 0 78 \012ELSE[ ]	/* Else */\012NPUSHB[ ]	/* 32 values pushed */\0120 1 1 34 77 0 5 5 2 97 0 2 2 40 77 6 1 4 4 3 97 0 3 3 38 77 0 0 0 36 0 78 \012EIF[ ]	/* EndIf */\012NPUSHB[ ]	/* 15 values pushed */\01227 26 35 33 26 40 27 40 39 35 21 16 7 8 26 \012CALL[ ]	/* CallFunction */";
+assembly = "NPUSHB[ ]	/* 24 values pushed */
+8 5 2 5 1 38 37 4 3 4 5 23 1 3 4 25 24 3 2 4 0 3 4 76 
+MPPEM[ ]	/* MeasurePixelPerEm */
+PUSHB[ ]	/* 1 value pushed */
+25 
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+NPUSHB[ ]	/* 28 values pushed */
+0 5 5 1 97 2 1 1 1 34 77 6 1 4 4 3 97 0 3 3 38 77 0 0 0 36 0 78 
+ELSE[ ]	/* Else */
+NPUSHB[ ]	/* 32 values pushed */
+0 1 1 34 77 0 5 5 2 97 0 2 2 40 77 6 1 4 4 3 97 0 3 3 38 77 0 0 0 36 0 78 
+EIF[ ]	/* EndIf */
+NPUSHB[ ]	/* 15 values pushed */
+27 26 35 33 26 40 27 40 39 35 21 16 7 8 26 
+CALL[ ]	/* CallFunction */";
 };
 width = 1197;
 },
@@ -11465,7 +11976,31 @@ nodes = (
 }
 );
 userData = {
-assembly = "MPPEM[ ]	/* MeasurePixelPerEm */\012PUSHB[ ]	/* 1 value pushed */\01225 \012LT[ ]	/* LessThan */\012IF[ ]	/* If */\012NPUSHB[ ]	/* 22 values pushed */\01219 1 5 2 28 27 2 4 5 4 1 1 4 23 22 3 2 4 0 1 4 76 \012ELSE[ ]	/* Else */\012NPUSHB[ ]	/* 22 values pushed */\01219 1 5 3 28 27 2 4 5 4 1 1 4 23 22 3 2 4 0 1 4 76 \012EIF[ ]	/* EndIf */\012MPPEM[ ]	/* MeasurePixelPerEm */\012PUSHB[ ]	/* 1 value pushed */\01225 \012LT[ ]	/* LessThan */\012IF[ ]	/* If */\012NPUSHB[ ]	/* 28 values pushed */\0120 5 5 2 97 3 1 2 2 40 77 6 1 4 4 1 97 0 1 1 38 77 0 0 0 36 0 78 \012ELSE[ ]	/* Else */\012NPUSHB[ ]	/* 32 values pushed */\0120 3 3 34 77 0 5 5 2 97 0 2 2 40 77 6 1 4 4 1 97 0 1 1 38 77 0 0 0 36 0 78 \012EIF[ ]	/* EndIf */\012NPUSHB[ ]	/* 15 values pushed */\01225 24 32 30 24 38 25 38 19 39 37 16 7 8 26 \012CALL[ ]	/* CallFunction */";
+assembly = "MPPEM[ ]	/* MeasurePixelPerEm */
+PUSHB[ ]	/* 1 value pushed */
+25 
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+NPUSHB[ ]	/* 22 values pushed */
+19 1 5 2 28 27 2 4 5 4 1 1 4 23 22 3 2 4 0 1 4 76 
+ELSE[ ]	/* Else */
+NPUSHB[ ]	/* 22 values pushed */
+19 1 5 3 28 27 2 4 5 4 1 1 4 23 22 3 2 4 0 1 4 76 
+EIF[ ]	/* EndIf */
+MPPEM[ ]	/* MeasurePixelPerEm */
+PUSHB[ ]	/* 1 value pushed */
+25 
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+NPUSHB[ ]	/* 28 values pushed */
+0 5 5 2 97 3 1 2 2 40 77 6 1 4 4 1 97 0 1 1 38 77 0 0 0 36 0 78 
+ELSE[ ]	/* Else */
+NPUSHB[ ]	/* 32 values pushed */
+0 3 3 34 77 0 5 5 2 97 0 2 2 40 77 6 1 4 4 1 97 0 1 1 38 77 0 0 0 36 0 78 
+EIF[ ]	/* EndIf */
+NPUSHB[ ]	/* 15 values pushed */
+25 24 32 30 24 38 25 38 19 39 37 16 7 8 26 
+CALL[ ]	/* CallFunction */";
 };
 width = 1197;
 },
@@ -11599,7 +12134,22 @@ nodes = (
 }
 );
 userData = {
-assembly = "NPUSHB[ ]	/* 16 values pushed */\0129 5 4 3 3 1 22 21 20 3 2 5 0 3 2 76 \012MPPEM[ ]	/* MeasurePixelPerEm */\012PUSHB[ ]	/* 1 value pushed */\01225 \012LT[ ]	/* LessThan */\012IF[ ]	/* If */\012NPUSHB[ ]	/* 17 values pushed */\0120 3 3 1 97 2 1 1 1 34 77 0 0 0 32 0 78 \012ELSE[ ]	/* Else */\012NPUSHB[ ]	/* 21 values pushed */\0120 1 1 34 77 0 3 3 2 97 0 2 2 40 77 0 0 0 32 0 78 \012EIF[ ]	/* EndIf */\012PUSHB[ ]	/* 7 values pushed */\01235 36 21 16 4 8 26 \012CALL[ ]	/* CallFunction */";
+assembly = "NPUSHB[ ]	/* 16 values pushed */
+9 5 4 3 3 1 22 21 20 3 2 5 0 3 2 76 
+MPPEM[ ]	/* MeasurePixelPerEm */
+PUSHB[ ]	/* 1 value pushed */
+25 
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+NPUSHB[ ]	/* 17 values pushed */
+0 3 3 1 97 2 1 1 1 34 77 0 0 0 32 0 78 
+ELSE[ ]	/* Else */
+NPUSHB[ ]	/* 21 values pushed */
+0 1 1 34 77 0 3 3 2 97 0 2 2 40 77 0 0 0 32 0 78 
+EIF[ ]	/* EndIf */
+PUSHB[ ]	/* 7 values pushed */
+35 36 21 16 4 8 26 
+CALL[ ]	/* CallFunction */";
 };
 width = 854;
 },
@@ -11754,7 +12304,9 @@ nodes = (
 }
 );
 userData = {
-assembly = "NPUSHB[ ]	/* 66 values pushed */\01225 1 5 3 3 1 0 2 2 76 0 4 5 1 5 4 1 128 0 1 2 5 1 2 126 0 5 5 3 97 0 3 3 40 77 0 2 2 0 97 6 1 0 0 38 0 78 1 0 32 30 27 26 23 21 10 8 5 4 0 43 1 43 7 8 22 \012CALL[ ]	/* CallFunction */";
+assembly = "NPUSHB[ ]	/* 66 values pushed */
+25 1 5 3 3 1 0 2 2 76 0 4 5 1 5 4 1 128 0 1 2 5 1 2 126 0 5 5 3 97 0 3 3 40 77 0 2 2 0 97 6 1 0 0 38 0 78 1 0 32 30 27 26 23 21 10 8 5 4 0 43 1 43 7 8 22 
+CALL[ ]	/* CallFunction */";
 };
 width = 1022;
 },
@@ -11890,7 +12442,9 @@ nodes = (
 }
 );
 userData = {
-assembly = "NPUSHB[ ]	/* 60 values pushed */\01220 1 6 1 21 1 0 6 2 76 0 3 2 3 133 5 1 1 1 2 95 4 1 2 2 34 77 0 6 6 0 98 7 1 0 0 38 0 78 1 0 18 16 13 12 11 10 9 8 7 6 5 4 0 23 1 23 8 8 22 \012CALL[ ]	/* CallFunction */";
+assembly = "NPUSHB[ ]	/* 60 values pushed */
+20 1 6 1 21 1 0 6 2 76 0 3 2 3 133 5 1 1 1 2 95 4 1 2 2 34 77 0 6 6 0 98 7 1 0 0 38 0 78 1 0 18 16 13 12 11 10 9 8 7 6 5 4 0 23 1 23 8 8 22 
+CALL[ ]	/* CallFunction */";
 };
 width = 730;
 },
@@ -12014,7 +12568,31 @@ nodes = (
 }
 );
 userData = {
-assembly = "MPPEM[ ]	/* MeasurePixelPerEm */\012PUSHB[ ]	/* 1 value pushed */\01223 \012LT[ ]	/* LessThan */\012IF[ ]	/* If */\012NPUSHB[ ]	/* 16 values pushed */\01225 21 17 16 15 5 4 7 2 1 22 1 0 2 2 76 \012ELSE[ ]	/* Else */\012NPUSHB[ ]	/* 16 values pushed */\01225 21 17 16 15 5 4 7 2 1 22 1 4 2 2 76 \012EIF[ ]	/* EndIf */\012MPPEM[ ]	/* MeasurePixelPerEm */\012PUSHB[ ]	/* 1 value pushed */\01223 \012LT[ ]	/* LessThan */\012IF[ ]	/* If */\012NPUSHB[ ]	/* 19 values pushed */\0123 1 1 1 34 77 0 2 2 0 97 4 5 2 0 0 38 0 78 \012ELSE[ ]	/* Else */\012NPUSHB[ ]	/* 23 values pushed */\0123 1 1 1 34 77 0 4 4 32 77 0 2 2 0 97 5 1 0 0 38 0 78 \012EIF[ ]	/* EndIf */\012NPUSHB[ ]	/* 17 values pushed */\0121 0 24 23 20 18 13 11 8 6 0 27 1 27 6 8 22 \012CALL[ ]	/* CallFunction */";
+assembly = "MPPEM[ ]	/* MeasurePixelPerEm */
+PUSHB[ ]	/* 1 value pushed */
+23 
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+NPUSHB[ ]	/* 16 values pushed */
+25 21 17 16 15 5 4 7 2 1 22 1 0 2 2 76 
+ELSE[ ]	/* Else */
+NPUSHB[ ]	/* 16 values pushed */
+25 21 17 16 15 5 4 7 2 1 22 1 4 2 2 76 
+EIF[ ]	/* EndIf */
+MPPEM[ ]	/* MeasurePixelPerEm */
+PUSHB[ ]	/* 1 value pushed */
+23 
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+NPUSHB[ ]	/* 19 values pushed */
+3 1 1 1 34 77 0 2 2 0 97 4 5 2 0 0 38 0 78 
+ELSE[ ]	/* Else */
+NPUSHB[ ]	/* 23 values pushed */
+3 1 1 1 34 77 0 4 4 32 77 0 2 2 0 97 5 1 0 0 38 0 78 
+EIF[ ]	/* EndIf */
+NPUSHB[ ]	/* 17 values pushed */
+1 0 24 23 20 18 13 11 8 6 0 27 1 27 6 8 22 
+CALL[ ]	/* CallFunction */";
 };
 width = 1245;
 },
@@ -12122,7 +12700,9 @@ nodes = (
 }
 );
 userData = {
-assembly = "NPUSHB[ ]	/* 30 values pushed */\01217 14 13 10 8 7 4 7 0 1 1 76 2 1 1 1 34 77 0 0 0 32 0 78 25 19 17 3 8 25 \012CALL[ ]	/* CallFunction */";
+assembly = "NPUSHB[ ]	/* 30 values pushed */
+17 14 13 10 8 7 4 7 0 1 1 76 2 1 1 1 34 77 0 0 0 32 0 78 25 19 17 3 8 25 
+CALL[ ]	/* CallFunction */";
 };
 width = 1206;
 },
@@ -12244,7 +12824,9 @@ nodes = (
 }
 );
 userData = {
-assembly = "NPUSHB[ ]	/* 36 values pushed */\01228 23 20 19 16 10 8 7 4 9 0 1 1 76 3 2 2 1 1 34 77 4 1 0 0 32 0 78 19 23 23 19 17 5 8 27 \012CALL[ ]	/* CallFunction */";
+assembly = "NPUSHB[ ]	/* 36 values pushed */
+28 23 20 19 16 10 8 7 4 9 0 1 1 76 3 2 2 1 1 34 77 4 1 0 0 32 0 78 19 23 23 19 17 5 8 27 
+CALL[ ]	/* CallFunction */";
 };
 width = 1823;
 },
@@ -12374,7 +12956,9 @@ nodes = (
 }
 );
 userData = {
-assembly = "NPUSHB[ ]	/* 41 values pushed */\01227 26 25 24 21 19 17 14 13 12 11 10 7 5 3 0 16 0 1 1 76 2 1 1 1 34 77 3 1 0 0 32 0 78 22 22 22 17 4 8 26 \012CALL[ ]	/* CallFunction */";
+assembly = "NPUSHB[ ]	/* 41 values pushed */
+27 26 25 24 21 19 17 14 13 12 11 10 7 5 3 0 16 0 1 1 76 2 1 1 1 34 77 3 1 0 0 32 0 78 22 22 22 17 4 8 26 
+CALL[ ]	/* CallFunction */";
 };
 width = 1203;
 },
@@ -12508,7 +13092,9 @@ nodes = (
 }
 );
 userData = {
-assembly = "NPUSHB[ ]	/* 50 values pushed */\01225 22 21 19 17 16 13 11 8 1 2 3 1 0 1 2 76 3 1 2 2 34 77 0 1 1 0 98 4 1 0 0 42 0 78 1 0 24 23 15 14 8 4 0 30 1 30 5 8 22 \012CALL[ ]	/* CallFunction */";
+assembly = "NPUSHB[ ]	/* 50 values pushed */
+25 22 21 19 17 16 13 11 8 1 2 3 1 0 1 2 76 3 1 2 2 34 77 0 1 1 0 98 4 1 0 0 42 0 78 1 0 24 23 15 14 8 4 0 30 1 30 5 8 22 
+CALL[ ]	/* CallFunction */";
 };
 width = 1200;
 },
@@ -12611,7 +13197,22 @@ nodes = (
 }
 );
 userData = {
-assembly = "NPUSHB[ ]	/* 10 values pushed */\01210 1 1 3 3 1 0 4 2 76 \012MPPEM[ ]	/* MeasurePixelPerEm */\012PUSHB[ ]	/* 1 value pushed */\01214 \012LT[ ]	/* LessThan */\012IF[ ]	/* If */\012NPUSHB[ ]	/* 35 values pushed */\0120 2 1 5 1 2 114 6 1 5 4 4 5 112 0 1 1 3 95 0 3 3 34 77 0 4 4 0 96 0 0 0 32 0 78 \012ELSE[ ]	/* Else */\012NPUSHB[ ]	/* 37 values pushed */\0120 2 1 5 1 2 5 128 6 1 5 4 1 5 4 126 0 1 1 3 95 0 3 3 34 77 0 4 4 0 96 0 0 0 32 0 78 \012EIF[ ]	/* EndIf */\012NPUSHB[ ]	/* 14 values pushed */\0120 0 0 13 0 13 18 17 17 18 17 7 8 27 \012CALL[ ]	/* CallFunction */";
+assembly = "NPUSHB[ ]	/* 10 values pushed */
+10 1 1 3 3 1 0 4 2 76 
+MPPEM[ ]	/* MeasurePixelPerEm */
+PUSHB[ ]	/* 1 value pushed */
+14 
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+NPUSHB[ ]	/* 35 values pushed */
+0 2 1 5 1 2 114 6 1 5 4 4 5 112 0 1 1 3 95 0 3 3 34 77 0 4 4 0 96 0 0 0 32 0 78 
+ELSE[ ]	/* Else */
+NPUSHB[ ]	/* 37 values pushed */
+0 2 1 5 1 2 5 128 6 1 5 4 1 5 4 126 0 1 1 3 95 0 3 3 34 77 0 4 4 0 96 0 0 0 32 0 78 
+EIF[ ]	/* EndIf */
+NPUSHB[ ]	/* 14 values pushed */
+0 0 0 13 0 13 18 17 17 18 17 7 8 27 
+CALL[ ]	/* CallFunction */";
 };
 width = 1032;
 },
@@ -12731,7 +13332,9 @@ nodes = (
 }
 );
 userData = {
-assembly = "NPUSHB[ ]	/* 36 values pushed */\01224 1 0 1 1 76 17 16 2 1 74 1 1 0 73 0 1 0 0 1 89 0 1 1 0 97 0 0 1 0 81 17 23 2 8 24 \012CALL[ ]	/* CallFunction */";
+assembly = "NPUSHB[ ]	/* 36 values pushed */
+24 1 0 1 1 76 17 16 2 1 74 1 1 0 73 0 1 0 0 1 89 0 1 1 0 97 0 0 1 0 81 17 23 2 8 24 
+CALL[ ]	/* CallFunction */";
 };
 width = 700;
 },
@@ -12814,7 +13417,9 @@ nodes = (
 }
 );
 userData = {
-assembly = "NPUSHB[ ]	/* 22 values pushed */\0120 0 1 0 134 2 1 1 1 31 1 78 0 0 0 3 0 3 17 3 8 23 \012CALL[ ]	/* CallFunction */";
+assembly = "NPUSHB[ ]	/* 22 values pushed */
+0 0 1 0 134 2 1 1 1 31 1 78 0 0 0 3 0 3 17 3 8 23 
+CALL[ ]	/* CallFunction */";
 };
 width = 451;
 },
@@ -12924,7 +13529,9 @@ nodes = (
 }
 );
 userData = {
-assembly = "NPUSHB[ ]	/* 38 values pushed */\0128 1 1 0 1 76 16 15 2 0 74 1 1 1 73 0 0 1 1 0 89 0 0 0 1 97 0 1 0 1 81 25 24 23 22 2 8 22 \012CALL[ ]	/* CallFunction */";
+assembly = "NPUSHB[ ]	/* 38 values pushed */
+8 1 1 0 1 76 16 15 2 0 74 1 1 1 73 0 0 1 1 0 89 0 0 0 1 97 0 1 0 1 81 25 24 23 22 2 8 22 
+CALL[ ]	/* CallFunction */";
 };
 width = 700;
 },
@@ -13055,7 +13662,15 @@ nodes = (
 }
 );
 userData = {
-assembly = "PUSHB[ ]	/* 2 values pushed */\0126 100 \012WCVTP[ ]	/* WriteCVTInPixels */\012NPUSHB[ ]	/* 52 values pushed */\01224 23 2 1 2 10 9 2 0 3 2 76 0 2 0 1 3 2 1 105 0 3 0 0 3 89 0 3 3 0 97 4 1 0 3 0 81 1 0 21 19 15 13 7 5 0 27 1 27 5 8 22 \012CALL[ ]	/* CallFunction */\012PUSHB[ ]	/* 2 values pushed */\0126 0 \012WCVTP[ ]	/* WriteCVTInPixels */";
+assembly = "PUSHB[ ]	/* 2 values pushed */
+6 100 
+WCVTP[ ]	/* WriteCVTInPixels */
+NPUSHB[ ]	/* 52 values pushed */
+24 23 2 1 2 10 9 2 0 3 2 76 0 2 0 1 3 2 1 105 0 3 0 0 3 89 0 3 3 0 97 4 1 0 3 0 81 1 0 21 19 15 13 7 5 0 27 1 27 5 8 22 
+CALL[ ]	/* CallFunction */
+PUSHB[ ]	/* 2 values pushed */
+6 0 
+WCVTP[ ]	/* WriteCVTInPixels */";
 };
 width = 1386;
 },
@@ -13165,7 +13780,9 @@ nodes = (
 }
 );
 userData = {
-assembly = "NPUSHB[ ]	/* 33 values pushed */\01210 3 2 0 1 1 76 3 1 1 0 0 1 87 3 1 1 1 0 95 2 1 0 1 0 79 19 18 19 17 4 8 26 \012CALL[ ]	/* CallFunction */";
+assembly = "NPUSHB[ ]	/* 33 values pushed */
+10 3 2 0 1 1 76 3 1 1 0 0 1 87 3 1 1 1 0 95 2 1 0 1 0 79 19 18 19 17 4 8 26 
+CALL[ ]	/* CallFunction */";
 };
 width = 935;
 },
@@ -13266,7 +13883,9 @@ nodes = (
 }
 );
 userData = {
-assembly = "NPUSHB[ ]	/* 33 values pushed */\01210 3 2 0 1 1 76 3 1 1 0 0 1 87 3 1 1 1 0 95 2 1 0 1 0 79 18 19 18 17 4 8 26 \012CALL[ ]	/* CallFunction */";
+assembly = "NPUSHB[ ]	/* 33 values pushed */
+10 3 2 0 1 1 76 3 1 1 0 0 1 87 3 1 1 1 0 95 2 1 0 1 0 79 18 19 18 17 4 8 26 
+CALL[ ]	/* CallFunction */";
 };
 width = 935;
 },
@@ -28196,7 +28815,20 @@ nodes = (
 }
 );
 userData = {
-assembly = "MPPEM[ ]	/* MeasurePixelPerEm */\012PUSHB[ ]	/* 1 value pushed */\01234 \012LT[ ]	/* LessThan */\012IF[ ]	/* If */\012NPUSHB[ ]	/* 23 values pushed */\0120 3 3 2 97 5 1 2 2 17 77 4 1 0 0 1 97 0 1 1 19 1 78 \012ELSE[ ]	/* Else */\012NPUSHB[ ]	/* 27 values pushed */\0125 1 2 0 3 0 2 3 105 4 1 0 1 1 0 89 4 1 0 0 1 97 0 1 0 1 81 \012EIF[ ]	/* EndIf */\012NPUSHB[ ]	/* 19 values pushed */\01217 16 1 0 25 23 16 31 17 31 9 7 0 15 1 15 6 7 22 \012CALL[ ]	/* CallFunction */";
+assembly = "MPPEM[ ]	/* MeasurePixelPerEm */
+PUSHB[ ]	/* 1 value pushed */
+34 
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+NPUSHB[ ]	/* 23 values pushed */
+0 3 3 2 97 5 1 2 2 17 77 4 1 0 0 1 97 0 1 1 19 1 78 
+ELSE[ ]	/* Else */
+NPUSHB[ ]	/* 27 values pushed */
+5 1 2 0 3 0 2 3 105 4 1 0 1 1 0 89 4 1 0 0 1 97 0 1 0 1 81 
+EIF[ ]	/* EndIf */
+NPUSHB[ ]	/* 19 values pushed */
+17 16 1 0 25 23 16 31 17 31 9 7 0 15 1 15 6 7 22 
+CALL[ ]	/* CallFunction */";
 };
 width = 625;
 },

@@ -434,10 +434,6 @@ value = (
 {
 Name = Weight;
 Tag = wght;
-},
-{
-Name = Width;
-Tag = wdth;
 }
 );
 }
@@ -605,7 +601,6 @@ descender = -900;
 iconName = Bold;
 id = "1AFB1E35-9546-41E1-B92B-6969383A0DDD";
 weightValue = 900;
-widthValue = 5;
 xHeight = 1098;
 },
 {
@@ -652,7 +647,6 @@ value = 102;
 descender = -900;
 id = "759DCBF5-126F-43AE-ABB8-3EC70824EECD";
 weightValue = 400;
-widthValue = 5;
 xHeight = 1098;
 },
 {
@@ -700,7 +694,6 @@ value = 102;
 descender = -900;
 iconName = Light;
 id = "CD48D813-7107-4EBE-8BC7-C661170EDB17";
-widthValue = 5;
 xHeight = 1098;
 }
 );
@@ -63564,7 +63557,6 @@ note = uni17D21783;
 instances = (
 {
 interpolationWeight = 900;
-interpolationWidth = 5;
 instanceInterpolations = {
 "1AFB1E35-9546-41E1-B92B-6969383A0DDD" = 1;
 };
@@ -63610,7 +63602,6 @@ weightClass = Medium;
 },
 {
 interpolationWeight = 400;
-interpolationWidth = 5;
 instanceInterpolations = {
 "759DCBF5-126F-43AE-ABB8-3EC70824EECD" = 1;
 };
@@ -63635,7 +63626,6 @@ name = ExtraLight;
 weightClass = ExtraLight;
 },
 {
-interpolationWidth = 5;
 instanceInterpolations = {
 "CD48D813-7107-4EBE-8BC7-C661170EDB17" = 1;
 };

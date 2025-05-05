@@ -2,7 +2,7 @@ sources:
   - Hanuman.glyphs
 outputDir: "../Release"
 buildStatic: true
-buildVariable: false
+buildVariable: true
 buildTTF: true
 buildOTF: false
 buildWebfont: false
